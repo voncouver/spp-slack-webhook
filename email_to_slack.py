@@ -7,7 +7,7 @@ import urllib.request
 from email.header import decode_header
 from html.parser import HTMLParser
 
-IMAP_HOST = "imapeu.zoho.com"
+IMAP_HOST = "imapeu.zoho.eu"
 IMAP_PORT = 993
 EMAIL_USER = os.environ["ZOHO_EMAIL"]
 EMAIL_PASS = os.environ["ZOHO_APP_PASSWORD"]
