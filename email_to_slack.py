@@ -67,6 +67,7 @@ def main():
 
     _, data = mail.search(None, f'(UNSEEN FROM "{SPP_SENDER}")')
     email_ids = data[0].split()
+    print(f"Found {len(email_ids)} unread email(s) from {SPP_SENDER}")
 
     for eid in email_ids:
         _, msg_data = mail.fetch(eid, "(RFC822)")
@@ -74,9 +75,11 @@ def main():
 
         subject_raw = decode_header(msg["Subject"])[0][0]
         subject = subject_raw.decode() if isinstance(subject_raw, bytes) else subject_raw
+        print(f"Subject: {subject}")
 
         match = re.match(r"^(.+) paid (.+) for invoice #([A-Z0-9]+)$", subject)
         if not match:
+            print("Subject did not match expected pattern, skipping.")
             continue
 
         client_name = match.group(1)
