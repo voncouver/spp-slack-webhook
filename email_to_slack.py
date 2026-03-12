@@ -5,7 +5,9 @@ import json
 import os
 import urllib.request
 from email.header import decode_header
+from email.utils import parsedate_to_datetime
 from html.parser import HTMLParser
+from datetime import datetime, timezone
 
 IMAP_HOST = "imap.zoho.eu"
 IMAP_PORT = 993
@@ -14,6 +16,7 @@ EMAIL_PASS = os.environ["ZOHO_APP_PASSWORD"]
 SLACK_WEBHOOK_URL = os.environ["SLACK_WEBHOOK_URL"]
 SPP_SENDER = "rankmenu@es2.serviceprovider.app"
 PROCESSED_FILE = "processed_orders.json"
+START_DATE = "2026-03-12"
 
 
 class LinkExtractor(HTMLParser):
@@ -89,6 +92,15 @@ def main():
 
         subject_raw = decode_header(msg["Subject"])[0][0]
         subject = subject_raw.decode() if isinstance(subject_raw, bytes) else subject_raw
+
+        try:
+            msg_date = parsedate_to_datetime(msg["Date"])
+            if msg_date.tzinfo is None:
+                msg_date = msg_date.replace(tzinfo=timezone.utc)
+            if msg_date < datetime.fromisoformat(START_DATE).replace(tzinfo=timezone.utc):
+                continue
+        except Exception:
+            continue
 
         match = re.match(r"^(.+) paid (.+) for invoice #([A-Z0-9]+)$", subject)
         if not match:
