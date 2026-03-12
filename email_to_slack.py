@@ -5,9 +5,7 @@ import json
 import os
 import urllib.request
 from email.header import decode_header
-from email.utils import parsedate_to_datetime
 from html.parser import HTMLParser
-from datetime import datetime, timezone, timedelta
 
 IMAP_HOST = "imap.zoho.eu"
 IMAP_PORT = 993
@@ -15,6 +13,7 @@ EMAIL_USER = os.environ["ZOHO_EMAIL"]
 EMAIL_PASS = os.environ["ZOHO_APP_PASSWORD"]
 SLACK_WEBHOOK_URL = os.environ["SLACK_WEBHOOK_URL"]
 SPP_SENDER = "rankmenu@es2.serviceprovider.app"
+PROCESSED_FILE = "processed_orders.json"
 
 
 class LinkExtractor(HTMLParser):
@@ -62,12 +61,24 @@ def post_to_slack(client, order_id, service, amount):
     urllib.request.urlopen(req)
 
 
+def load_processed():
+    if os.path.exists(PROCESSED_FILE):
+        with open(PROCESSED_FILE) as f:
+            return set(json.load(f))
+    return set()
+
+
+def save_processed(processed):
+    with open(PROCESSED_FILE, "w") as f:
+        json.dump(list(processed), f)
+
+
 def main():
+    processed = load_processed()
+
     mail = imaplib.IMAP4_SSL(IMAP_HOST, IMAP_PORT)
     mail.login(EMAIL_USER, EMAIL_PASS)
     mail.select("INBOX")
-
-    cutoff = datetime.now(timezone.utc) - timedelta(minutes=10)
 
     _, data = mail.search(None, f'(FROM "{SPP_SENDER}")')
     email_ids = data[0].split()
@@ -75,15 +86,6 @@ def main():
     for eid in email_ids:
         _, msg_data = mail.fetch(eid, "(RFC822)")
         msg = email.message_from_bytes(msg_data[0][1])
-
-        try:
-            msg_date = parsedate_to_datetime(msg["Date"])
-            if msg_date.tzinfo is None:
-                msg_date = msg_date.replace(tzinfo=timezone.utc)
-            if msg_date < cutoff:
-                continue
-        except Exception:
-            continue
 
         subject_raw = decode_header(msg["Subject"])[0][0]
         subject = subject_raw.decode() if isinstance(subject_raw, bytes) else subject_raw
@@ -96,6 +98,9 @@ def main():
         amount = match.group(2)
         order_id = match.group(3)
 
+        if order_id in processed:
+            continue
+
         service = "Unknown"
         for part in msg.walk():
             if part.get_content_type() == "text/html":
@@ -104,7 +109,9 @@ def main():
                 break
 
         post_to_slack(client_name, order_id, service, amount)
+        processed.add(order_id)
 
+    save_processed(processed)
     mail.logout()
 
 
