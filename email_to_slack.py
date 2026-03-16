@@ -7,7 +7,18 @@ import urllib.request
 from email.header import decode_header
 from email.utils import parsedate_to_datetime
 from html.parser import HTMLParser
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
+from pathlib import Path
+
+# Load .env file (local use only)
+env_path = Path(__file__).parent / ".env"
+if env_path.exists():
+    with open(env_path) as f:
+        for line in f:
+            line = line.strip()
+            if line and not line.startswith("#") and "=" in line:
+                key, _, val = line.partition("=")
+                os.environ.setdefault(key.strip(), val.strip())
 
 IMAP_HOST = "imap.zoho.eu"
 IMAP_PORT = 993
@@ -15,8 +26,19 @@ EMAIL_USER = os.environ["ZOHO_EMAIL"]
 EMAIL_PASS = os.environ["ZOHO_APP_PASSWORD"]
 SLACK_WEBHOOK_URL = os.environ["SLACK_WEBHOOK_URL"]
 SPP_SENDER = "rankmenu@es2.serviceprovider.app"
-PROCESSED_FILE = "processed_orders.json"
-START_DATE = "2026-03-12"
+PROCESSED_FILE = Path(__file__).parent / "processed_orders.json"
+
+
+def load_processed():
+    if PROCESSED_FILE.exists():
+        with open(PROCESSED_FILE) as f:
+            return set(json.load(f))
+    return set()
+
+
+def save_processed(processed):
+    with open(PROCESSED_FILE, "w") as f:
+        json.dump(list(processed), f)
 
 
 class LinkExtractor(HTMLParser):
@@ -53,7 +75,7 @@ def get_service_from_html(html_body):
 
 def post_to_slack(client, order_id, service, amount):
     message = {
-        "text": f"*New Order*\nClient: {client}\nOrder #{order_id}\nItem: {service}\nAmount: {amount}"
+        "text": f"*📝 New Order on Service Provider Pro!*\n\nClient: {client}\nOrder #{order_id}\nService: {service}\nAmount: {amount}"
     }
     data = json.dumps(message).encode("utf-8")
     req = urllib.request.Request(
@@ -64,20 +86,9 @@ def post_to_slack(client, order_id, service, amount):
     urllib.request.urlopen(req)
 
 
-def load_processed():
-    if os.path.exists(PROCESSED_FILE):
-        with open(PROCESSED_FILE) as f:
-            return set(json.load(f))
-    return set()
-
-
-def save_processed(processed):
-    with open(PROCESSED_FILE, "w") as f:
-        json.dump(list(processed), f)
-
-
 def main():
     processed = load_processed()
+    cutoff = datetime.now(timezone.utc) - timedelta(hours=24)
 
     mail = imaplib.IMAP4_SSL(IMAP_HOST, IMAP_PORT)
     mail.login(EMAIL_USER, EMAIL_PASS)
@@ -90,17 +101,17 @@ def main():
         _, msg_data = mail.fetch(eid, "(RFC822)")
         msg = email.message_from_bytes(msg_data[0][1])
 
-        subject_raw = decode_header(msg["Subject"])[0][0]
-        subject = subject_raw.decode() if isinstance(subject_raw, bytes) else subject_raw
-
         try:
             msg_date = parsedate_to_datetime(msg["Date"])
             if msg_date.tzinfo is None:
                 msg_date = msg_date.replace(tzinfo=timezone.utc)
-            if msg_date < datetime.fromisoformat(START_DATE).replace(tzinfo=timezone.utc):
+            if msg_date < cutoff:
                 continue
         except Exception:
             continue
+
+        subject_raw = decode_header(msg["Subject"])[0][0]
+        subject = subject_raw.decode() if isinstance(subject_raw, bytes) else subject_raw
 
         match = re.match(r"^(.+) paid (.+) for invoice #([A-Z0-9]+)$", subject)
         if not match:
@@ -122,6 +133,7 @@ def main():
 
         post_to_slack(client_name, order_id, service, amount)
         processed.add(order_id)
+        print(f"Sent: {client_name} | Order #{order_id} | {service} | {amount}")
 
     save_processed(processed)
     mail.logout()
