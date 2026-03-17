@@ -28,6 +28,7 @@ EMAIL_PASS = os.environ["ZOHO_APP_PASSWORD"]
 SLACK_WEBHOOK_URL = os.environ["SLACK_WEBHOOK_URL"]
 SPP_SENDER = "rankmenu@es2.serviceprovider.app"
 FIVERR_SENDER = "noreply@e.fiverr.com"
+LEGIIT_SENDER = "noreply@legiit.com"
 PROCESSED_FILE = Path(__file__).parent / "processed_orders.json"
 
 
@@ -212,27 +213,98 @@ def process_fiverr(mail, processed, cutoff, test_mode=False):
 
         post_to_slack(
             f"*📝 New Order on Fiverr!*\n\n"
-            f"Client Name: {client_name}\nOrder #{order_id}\nService: {service}\n"
+            f"Client: {client_name}\nOrder #{order_id}\nService: {service}\n"
             f"Quantity: {quantity}\nTotal Price: {total}\nDue Date: {due_date}"
         )
         processed.add(order_id)
         print(f"Sent Fiverr: {client_name} | Order #{order_id} | {service} | Qty:{quantity} | {total} | Due:{due_date}")
 
 
+def parse_legiit_body(html):
+    text = html_to_text(html)
+
+    buyer_match = re.search(r'Buyer:\s*(\S+)', text)
+    service_match = re.search(r'Service:\s*(.+?)\s*(?:Package\s*:|Total Amount:)', text)
+    amount_match = re.search(r'Total Amount:\s*(\$[\d.]+)', text)
+    order_match = re.search(r'Order Number:\s*(\S+)', text)
+
+    client = buyer_match.group(1).strip() if buyer_match else "Unknown"
+    service = service_match.group(1).strip() if service_match else "Unknown"
+    amount = amount_match.group(1) if amount_match else "Unknown"
+    order_id = order_match.group(1).strip() if order_match else None
+
+    return order_id, client, service, amount
+
+
+def process_legiit(mail, processed, cutoff, test_mode=False):
+    mail.select("Newsletter")
+    _, data = mail.search(None, f'(FROM "{LEGIIT_SENDER}")')
+    email_ids = data[0].split()
+
+    if not email_ids:
+        return
+
+    if test_mode:
+        email_ids = [email_ids[-1]]
+
+    for eid in email_ids:
+        _, msg_data = mail.fetch(eid, "(RFC822)")
+        msg = email.message_from_bytes(msg_data[0][1])
+
+        if not test_mode:
+            try:
+                msg_date = parsedate_to_datetime(msg["Date"])
+                if msg_date.tzinfo is None:
+                    msg_date = msg_date.replace(tzinfo=timezone.utc)
+                if msg_date < cutoff:
+                    continue
+            except Exception:
+                continue
+
+        html_body = None
+        for part in msg.walk():
+            if part.get_content_type() == "text/html":
+                html_body = part.get_payload(decode=True).decode()
+                break
+
+        if not html_body:
+            continue
+
+        order_id, client, service, amount = parse_legiit_body(html_body)
+
+        if not order_id:
+            continue
+
+        if not test_mode and order_id in processed:
+            continue
+
+        post_to_slack(
+            f"*📝 New Order on Legiit!*\n\n"
+            f"Client: {client}\nOrder Number: {order_id}\n"
+            f"Service: {service}\nTotal Amount: {amount}"
+        )
+        processed.add(order_id)
+        print(f"Sent Legiit: {client} | Order {order_id} | {service} | {amount}")
+
+
 def main():
     test_fiverr = "--test-fiverr" in sys.argv
+    test_legiit = "--test-legiit" in sys.argv
     processed = load_processed()
     cutoff = datetime.now(timezone.utc) - timedelta(hours=24)
 
     mail = imaplib.IMAP4_SSL(IMAP_HOST, IMAP_PORT)
     mail.login(EMAIL_USER, EMAIL_PASS)
-    mail.select("INBOX")
 
-    if not test_fiverr:
+    if not test_fiverr and not test_legiit:
         mail.select("INBOX")
         process_spp(mail, processed, cutoff)
-
-    process_fiverr(mail, processed, cutoff, test_mode=test_fiverr)
+        process_fiverr(mail, processed, cutoff)
+        process_legiit(mail, processed, cutoff)
+    elif test_fiverr:
+        process_fiverr(mail, processed, cutoff, test_mode=True)
+    elif test_legiit:
+        process_legiit(mail, processed, cutoff, test_mode=True)
 
     save_processed(processed)
     mail.logout()
