@@ -214,7 +214,7 @@ def process_fiverr(mail, processed, cutoff, test_mode=False):
         post_to_slack(
             f"*📝 New Order on Fiverr!*\n\n"
             f"Client: {client_name}\nOrder #{order_id}\nService: {service}\n"
-            f"Quantity: {quantity}\nTotal Price: {total}\nDue Date: {due_date}"
+            f"Quantity: {quantity}\nTotal Amount: {total}\nDue Date: {due_date}"
         )
         processed.add(order_id)
         print(f"Sent Fiverr: {client_name} | Order #{order_id} | {service} | Qty:{quantity} | {total} | Due:{due_date}")
