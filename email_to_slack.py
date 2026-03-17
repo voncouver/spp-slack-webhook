@@ -153,8 +153,8 @@ def process_spp(mail, processed, cutoff):
                 break
 
         post_to_slack(
-            f"*📝 New Order on Service Provider Pro!*\n\n"
-            f"*Client:* {client_name}\n*Order #*{order_id}\n*Service:* {service}\n*Amount:* {amount}"
+            f"*📦 New Order on Service Provider Pro!*\n\n"
+            f"*Client:* {client_name}\n*Order Number:* {order_id}\n*Service:* {service}\n*Amount:* {amount}"
         )
         processed.add(order_id)
         print(f"Sent SPP: {client_name} | Order #{order_id} | {service} | {amount}")
@@ -212,8 +212,8 @@ def process_fiverr(mail, processed, cutoff, test_mode=False):
             continue
 
         post_to_slack(
-            f"*📝 New Order on Fiverr!*\n\n"
-            f"*Client:* {client_name}\n*Order #*{order_id}\n*Service:* {service}\n"
+            f"*📦 New Order on Fiverr!*\n\n"
+            f"*Client:* {client_name}\n*Order Number:* {order_id}\n*Service:* {service}\n"
             f"*Quantity:* {quantity}\n*Total Amount:* {total}\n*Due Date:* {due_date}"
         )
         processed.add(order_id)
@@ -279,7 +279,7 @@ def process_legiit(mail, processed, cutoff, test_mode=False):
             continue
 
         post_to_slack(
-            f"*📝 New Order on Legiit!*\n\n"
+            f"*📦 New Order on Legiit!*\n\n"
             f"*Client:* {client}\n*Order Number:* {order_id}\n"
             f"*Service:* {service}\n*Total Amount:* {amount}"
         )
