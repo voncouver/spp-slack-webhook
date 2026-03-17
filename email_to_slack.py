@@ -3,6 +3,7 @@ import email
 import re
 import json
 import os
+import sys
 import urllib.request
 from email.header import decode_header
 from email.utils import parsedate_to_datetime
@@ -26,6 +27,7 @@ EMAIL_USER = os.environ["ZOHO_EMAIL"]
 EMAIL_PASS = os.environ["ZOHO_APP_PASSWORD"]
 SLACK_WEBHOOK_URL = os.environ["SLACK_WEBHOOK_URL"]
 SPP_SENDER = "rankmenu@es2.serviceprovider.app"
+FIVERR_SENDER = "noreply@e.fiverr.com"
 PROCESSED_FILE = Path(__file__).parent / "processed_orders.json"
 
 
@@ -73,11 +75,38 @@ def get_service_from_html(html_body):
     return "Unknown"
 
 
-def post_to_slack(client, order_id, service, amount):
-    message = {
-        "text": f"*📝 New Order on Service Provider Pro!*\n\nClient: {client}\nOrder #{order_id}\nService: {service}\nAmount: {amount}"
-    }
-    data = json.dumps(message).encode("utf-8")
+def html_to_text(html):
+    text = re.sub(r'<[^>]+>', ' ', html)
+    text = re.sub(r'&nbsp;', ' ', text)
+    text = re.sub(r'&amp;', '&', text)
+    text = re.sub(r'&times;|&#215;', '×', text)
+    text = re.sub(r'\s+', ' ', text)
+    return text.strip()
+
+
+def parse_fiverr_body(html):
+    text = html_to_text(html)
+
+    order_match = re.search(r'Order #(\S+) is due (\w+ \d+, \d+)', text)
+    order_id = order_match.group(1) if order_match else None
+    due_date = order_match.group(2) if order_match else "Unknown"
+
+    service_match = re.search(r'Price\s+(.+?)\s*:?\s*[×x]\s*(\d+)', text, re.DOTALL)
+    if service_match:
+        service = re.sub(r'^I will \w+ ', '', service_match.group(1).strip().rstrip(':').strip())
+        quantity = service_match.group(2)
+    else:
+        service = "Unknown"
+        quantity = "?"
+
+    total_match = re.search(r'Total:\s*\$?([\d,]+(?:\.\d+)?)', text)
+    total = f"${total_match.group(1)}" if total_match else "Unknown"
+
+    return order_id, due_date, service, quantity, total
+
+
+def post_to_slack(message_text):
+    data = json.dumps({"text": message_text}).encode("utf-8")
     req = urllib.request.Request(
         SLACK_WEBHOOK_URL,
         data=data,
@@ -86,14 +115,7 @@ def post_to_slack(client, order_id, service, amount):
     urllib.request.urlopen(req)
 
 
-def main():
-    processed = load_processed()
-    cutoff = datetime.now(timezone.utc) - timedelta(hours=24)
-
-    mail = imaplib.IMAP4_SSL(IMAP_HOST, IMAP_PORT)
-    mail.login(EMAIL_USER, EMAIL_PASS)
-    mail.select("INBOX")
-
+def process_spp(mail, processed, cutoff):
     _, data = mail.search(None, f'(FROM "{SPP_SENDER}")')
     email_ids = data[0].split()
 
@@ -117,9 +139,7 @@ def main():
         if not match:
             continue
 
-        client_name = match.group(1)
-        amount = match.group(2)
-        order_id = match.group(3)
+        client_name, amount, order_id = match.group(1), match.group(2), match.group(3)
 
         if order_id in processed:
             continue
@@ -131,9 +151,88 @@ def main():
                 service = get_service_from_html(html)
                 break
 
-        post_to_slack(client_name, order_id, service, amount)
+        post_to_slack(
+            f"*📝 New Order on Service Provider Pro!*\n\n"
+            f"Client: {client_name}\nOrder #{order_id}\nService: {service}\nAmount: {amount}"
+        )
         processed.add(order_id)
-        print(f"Sent: {client_name} | Order #{order_id} | {service} | {amount}")
+        print(f"Sent SPP: {client_name} | Order #{order_id} | {service} | {amount}")
+
+
+def process_fiverr(mail, processed, cutoff, test_mode=False):
+    mail.select("Newsletter")
+    _, data = mail.search(None, f'(FROM "{FIVERR_SENDER}")')
+    email_ids = data[0].split()
+
+    if not email_ids:
+        return
+
+    if test_mode:
+        email_ids = [email_ids[-1]]
+
+    for eid in email_ids:
+        _, msg_data = mail.fetch(eid, "(RFC822)")
+        msg = email.message_from_bytes(msg_data[0][1])
+
+        if not test_mode:
+            try:
+                msg_date = parsedate_to_datetime(msg["Date"])
+                if msg_date.tzinfo is None:
+                    msg_date = msg_date.replace(tzinfo=timezone.utc)
+                if msg_date < cutoff:
+                    continue
+            except Exception:
+                continue
+
+        subject_raw = decode_header(msg["Subject"])[0][0]
+        subject = subject_raw.decode() if isinstance(subject_raw, bytes) else subject_raw
+
+        fiverr_match = re.match(r"^Great news: You've received an order from (.+)$", subject)
+        if not fiverr_match:
+            continue
+
+        client_name = fiverr_match.group(1).strip()
+
+        html_body = None
+        for part in msg.walk():
+            if part.get_content_type() == "text/html":
+                html_body = part.get_payload(decode=True).decode()
+                break
+
+        if not html_body:
+            continue
+
+        order_id, due_date, service, quantity, total = parse_fiverr_body(html_body)
+
+        if not order_id:
+            continue
+
+        if not test_mode and order_id in processed:
+            continue
+
+        post_to_slack(
+            f"*📝 New Order on Fiverr!*\n\n"
+            f"Client Name: {client_name}\nOrder #{order_id}\nService: {service}\n"
+            f"Quantity: {quantity}\nTotal Price: {total}\nDue Date: {due_date}"
+        )
+        processed.add(order_id)
+        print(f"Sent Fiverr: {client_name} | Order #{order_id} | {service} | Qty:{quantity} | {total} | Due:{due_date}")
+
+
+def main():
+    test_fiverr = "--test-fiverr" in sys.argv
+    processed = load_processed()
+    cutoff = datetime.now(timezone.utc) - timedelta(hours=24)
+
+    mail = imaplib.IMAP4_SSL(IMAP_HOST, IMAP_PORT)
+    mail.login(EMAIL_USER, EMAIL_PASS)
+    mail.select("INBOX")
+
+    if not test_fiverr:
+        mail.select("INBOX")
+        process_spp(mail, processed, cutoff)
+
+    process_fiverr(mail, processed, cutoff, test_mode=test_fiverr)
 
     save_processed(processed)
     mail.logout()
