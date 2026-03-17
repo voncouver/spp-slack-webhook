@@ -154,7 +154,7 @@ def process_spp(mail, processed, cutoff):
 
         post_to_slack(
             f"*📝 New Order on Service Provider Pro!*\n\n"
-            f"Client: {client_name}\nOrder #{order_id}\nService: {service}\nAmount: {amount}"
+            f"*Client:* {client_name}\n*Order #*{order_id}\n*Service:* {service}\n*Amount:* {amount}"
         )
         processed.add(order_id)
         print(f"Sent SPP: {client_name} | Order #{order_id} | {service} | {amount}")
@@ -213,8 +213,8 @@ def process_fiverr(mail, processed, cutoff, test_mode=False):
 
         post_to_slack(
             f"*📝 New Order on Fiverr!*\n\n"
-            f"Client: {client_name}\nOrder #{order_id}\nService: {service}\n"
-            f"Quantity: {quantity}\nTotal Amount: {total}\nDue Date: {due_date}"
+            f"*Client:* {client_name}\n*Order #*{order_id}\n*Service:* {service}\n"
+            f"*Quantity:* {quantity}\n*Total Amount:* {total}\n*Due Date:* {due_date}"
         )
         processed.add(order_id)
         print(f"Sent Fiverr: {client_name} | Order #{order_id} | {service} | Qty:{quantity} | {total} | Due:{due_date}")
@@ -280,8 +280,8 @@ def process_legiit(mail, processed, cutoff, test_mode=False):
 
         post_to_slack(
             f"*📝 New Order on Legiit!*\n\n"
-            f"Client: {client}\nOrder Number: {order_id}\n"
-            f"Service: {service}\nTotal Amount: {amount}"
+            f"*Client:* {client}\n*Order Number:* {order_id}\n"
+            f"*Service:* {service}\n*Total Amount:* {amount}"
         )
         processed.add(order_id)
         print(f"Sent Legiit: {client} | Order {order_id} | {service} | {amount}")
