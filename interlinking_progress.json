@@ -1,0 +1,4409 @@
+{
+  "total": 376,
+  "done": [
+    "401k-audit-requirements",
+    "abbyy-alternative",
+    "abbyy-alternative-manufacturing",
+    "able2extract-alternative",
+    "agentic-document-processing",
+    "ai-data-entry",
+    "ai-data-extraction",
+    "ai-invoice-processing-factoring-companies",
+    "ai-to-extract-data-from-pdf",
+    "ai-tools-to-extract-data-from-pdf",
+    "ai-vs-manual-data-entry",
+    "ap-ocr-automation",
+    "astera-alternative",
+    "automate-document-processing-with-ai-agents",
+    "automated-data-extraction",
+    "automated-data-extraction-from-pdf",
+    "automated-invoice-processing",
+    "automatic-document-classification",
+    "aws-textract-alternative",
+    "azure-document-intelligence-alternative",
+    "bank-statement-extraction",
+    "bank-statement-verification-automation",
+    "best-1099-processing-software",
+    "best-abbyy-alternatives",
+    "best-accounts-payable-software",
+    "best-accounts-receivable-automation-software",
+    "best-ai-data-extraction-tools",
+    "best-ai-document-processing-no-training-required",
+    "best-ai-ocr-software",
+    "best-ai-tools-for-finance-teams",
+    "best-ap-automation-software-for-smbs",
+    "best-audit-software-for-cpa-firms",
+    "best-automated-document-processing-software",
+    "best-automated-invoice-processing-software",
+    "best-bank-statement-analysis-software",
+    "best-bank-statement-converter",
+    "best-bank-statement-extraction-software",
+    "best-bank-statement-ocr-software",
+    "best-bank-statement-parser",
+    "best-batch-document-processing-software",
+    "best-bill-of-lading-ocr-software",
+    "best-chatgpt-alternatives-tax-documents",
+    "best-check-ocr-software",
+    "best-coi-processing-software",
+    "best-compliance-audit-software",
+    "best-contract-extraction-software",
+    "best-customs-document-processing-software",
+    "best-customs-document-processing-software-e7fad",
+    "best-data-entry-automation-software",
+    "best-data-entry-software-small-business",
+    "best-data-extraction-tools",
+    "best-data-extraction-tools-7bd9e",
+    "best-datasnipper-alternatives",
+    "best-delivery-note-ocr-software",
+    "best-delivery-note-ocr-software-82313",
+    "best-docparser-alternatives-when-your-templates-stop-scaling",
+    "best-document-ai-tools",
+    "best-document-automation-software",
+    "best-document-automation-software-for-cpa-firms",
+    "best-document-capture-software",
+    "best-email-to-spreadsheet-tools",
+    "best-financial-document-automation-software",
+    "best-freight-invoice-processing-software",
+    "best-google-drive-ocr-tools",
+    "best-image-to-excel-tools",
+    "best-information-extraction-tools",
+    "best-invoice-capture-software",
+    "best-nanonets-alternatives",
+    "best-ocr-software-for-invoice-processing",
+    "best-outlook-email-parser-tools",
+    "pdf-data-scraping",
+    "extract-information-from-pdf",
+    "extract-text-from-scanned-pdf",
+    "extract-text-from-pdf-image",
+    "extract-data-from-pdf-to-excel",
+    "extract-data-from-pdf-form",
+    "copy-text-from-pdf",
+    "copy-data-from-pdf-to-excel",
+    "pdf-parsing-technologies",
+    "pdf-parsing-techniques",
+    "best-pdf-parsing-tools",
+    "extract-data-from-pdf-to-database",
+    "copy-table-from-pdf-to-google-sheets",
+    "extract-text-from-pdf",
+    "extract-table-from-pdf",
+    "ocr-in-banking",
+    "finance-automation",
+    "extract-data-from-financial-statements",
+    "legal-document-data-extraction",
+    "ocr-data-entry",
+    "financial-data-extraction",
+    "document-information-extraction",
+    "key-information-extraction",
+    "resume-information-extraction",
+    "data-parsing",
+    "email-data-extraction",
+    "utility-invoice-management",
+    "medical-data-extraction",
+    "data-extraction-in-healthcare",
+    "receipt-processing",
+    "receipt-capturing",
+    "receipt-data-extraction",
+    "supplier-invoice-automation",
+    "invoice-validation",
+    "purchase-invoice-processing",
+    "invoice-processing-system",
+    "invoice-automation-benefits",
+    "ocr-solution-for-invoice-processing",
+    "ocr-for-invoice-processing",
+    "template-less-invoice-extraction",
+    "invoice-data-extraction-as-a-service",
+    "what-is-invoice-management",
+    "what-is-invoice-processing",
+    "reduce-manual-invoice-processing",
+    "line-item-extraction-from-invoices",
+    "invoice-line-item",
+    "invoice-data-extraction",
+    "best-zonal-ocr-software",
+    "ocr-invoice-extraction",
+    "ocr-automation",
+    "ocr-contract-management",
+    "invoice-ocr-automation",
+    "contract-extraction",
+    "ocr-for-receipt-recognition",
+    "excel-data-extraction",
+    "data-entry-error-rates",
+    "best-ocr-for-microsoft-dynamics",
+    "key-value-pair-extraction",
+    "ocr-for-email",
+    "ocr-table-to-excel",
+    "best-timesheet-ocr-software",
+    "best-utility-bill-ocr-software",
+    "ocr-for-aerospace-parts-testing",
+    "best-receipt-ocr-software",
+    "mailparser-alternative",
+    "best-power-automate-ocr-tools",
+    "document-processing-multi-location-operations",
+    "how-to-extract-data-from-google-drive-to-excel",
+    "how-to-extract-email-attachments-to-google-sheets",
+    "best-payroll-ocr-software",
+    "ocr-for-marketing-agencies",
+    "best-purchase-order-ocr-software",
+    "why-hiring-more-ap-staff-doesnt-fix-your-document-problem",
+    "how-to-process-scanned-faxed-and-mobile-photo-invoices-accurately",
+    "ocr-for-grocery-invoices",
+    "the-150-page-problem-when-your-ocr-tool-hits-its-ceiling",
+    "ocr-for-telecom-billing",
+    "best-three-way-matching-software-42d6c",
+    "best-gmail-to-spreadsheet-tools",
+    "best-k1-extraction-software-46129",
+    "wine-auction-consignment-digitization",
+    "best-sharepoint-document-processing-software",
+    "ocr-for-government-contractors",
+    "dext-alternative",
+    "how-to-convert-ally-bank-statement-to-excel",
+    "how-to-convert-td-bank-statement-to-excel",
+    "how-to-convert-pnc-bank-statement-to-excel",
+    "how-to-convert-capital-one-statement-to-excel",
+    "how-to-convert-us-bank-statement-to-excel",
+    "how-to-convert-citibank-statement-to-excel",
+    "how-to-convert-wells-fargo-statement-to-excel",
+    "how-to-convert-bank-of-america-statement-to-excel",
+    "how-to-convert-chime-bank-statement-to-excel",
+    "how-to-convert-chase-bank-statement-to-excel",
+    "why-your-approval-process-is-really-an-accuracy-problem",
+    "lido-api-workflow-automation-integration",
+    "best-scanned-pdf-to-excel-converter",
+    "best-expense-report-software",
+    "best-ocr-software-for-pdf",
+    "ocr-for-real-estate",
+    "utility-bill-processing-automation",
+    "how-to-convert-pdf-to-xml",
+    "zapier-ocr-integration",
+    "best-ocr-for-sap",
+    "ocr-algorithms-explained",
+    "best-ocr-api-comparison",
+    "best-pdf-data-extractor",
+    "resume-ocr",
+    "best-ocr-for-forms",
+    "how-to-organize-accounts-payable-invoices",
+    "scan-invoices-into-quickbooks",
+    "what-is-intelligent-ocr",
+    "ocr-for-mortgage-processing",
+    "what-is-zonal-ocr",
+    "best-ocr-for-netsuite",
+    "best-image-to-table-converter",
+    "ocr-accuracy",
+    "copy-table-from-pdf-to-excel",
+    "ocr-for-finance",
+    "what-is-invoice-parsing",
+    "what-is-pdf-parsing",
+    "invoice-processing-cost-benchmarks",
+    "document-workflow-automation",
+    "invoice-automation",
+    "email-data-entry-automation",
+    "underwriting-workflow-automation",
+    "best-insurance-claims-processing-software",
+    "how-insurance-ocr-works",
+    "document-automation-for-insurance",
+    "what-is-underwriting-automation",
+    "best-insurance-underwriting-software",
+    "finance-workflow-automation",
+    "document-automation-for-financial-services",
+    "best-sales-order-automation-software",
+    "build-document-processing-agent-claude-code-lido",
+    "what-is-mcp-model-context-protocol",
+    "best-mcp-servers-for-document-processing",
+    "how-to-extract-document-data-with-claude-using-lido-mcp",
+    "best-tax-extraction-software",
+    "eliminate-manual-data-entry-finance",
+    "best-erp-integration-tools-for-document-extraction",
+    "best-invoice-processing-software",
+    "best-pdf-converter",
+    "best-ocr-api",
+    "best-document-extraction-software",
+    "how-to-automate-lien-tracking-pi-firms",
+    "how-to-extract-data-from-medical-records-legal",
+    "how-to-automate-demand-letter-generation",
+    "how-to-automate-insurance-check-processing-law-firms",
+    "how-law-firms-automate-no-fault-arbitration-filings",
+    "how-to-extract-data-from-any-pdf",
+    "how-to-extract-data-from-medical-forms",
+    "how-to-extract-data-from-insurance-claims",
+    "how-to-extract-data-from-timesheets",
+    "how-to-extract-data-from-rent-rolls",
+    "how-to-extract-data-from-1040-tax-returns",
+    "how-to-extract-data-from-pay-stubs",
+    "how-to-extract-data-from-w2-forms",
+    "ocr-for-nonprofits",
+    "ocr-for-auto-dealers",
+    "ocr-for-staffing-agencies",
+    "ocr-for-pharmacy",
+    "ocr-for-agriculture",
+    "how-to-automate-data-entry",
+    "best-ocr-app",
+    "form-5500-audit-requirements",
+    "what-is-erisa-audit",
+    "what-is-employee-benefit-plan-audit",
+    "best-mortgage-document-processing-software",
+    "what-is-automated-data-capture",
+    "what-is-document-classification",
+    "how-to-import-bank-statements-into-quickbooks",
+    "how-to-convert-csv-to-qbo",
+    "best-pdf-to-google-sheets-converter",
+    "how-to-convert-pdf-to-google-sheets",
+    "how-to-import-extracted-data-into-erp",
+    "how-to-automate-document-processing-no-code",
+    "lido-vs-chatgpt-document-processing",
+    "how-to-fuzzy-match-vendor-names",
+    "how-to-extract-data-from-bank-statements",
+    "best-underwriting-automation-software",
+    "best-loan-processing-automation-software",
+    "best-mortgage-document-automation-software",
+    "best-ocr-for-manufacturing",
+    "best-document-processing-for-real-estate",
+    "best-document-processing-for-law-firms",
+    "best-document-processing-for-construction",
+    "best-three-way-matching-software",
+    "best-financial-statement-data-extraction-software-94166",
+    "best-document-processing-software-for-insurance-c49bb",
+    "best-financial-statement-data-extraction-software",
+    "best-document-processing-software-for-insurance",
+    "best-remittance-advice-processing-software",
+    "best-table-extraction-software",
+    "best-ocr-for-handwritten-documents",
+    "sureprep-alternative",
+    "gruntworx-alternative",
+    "hubdoc-alternative",
+    "how-to-match-document-data-to-excel",
+    "how-to-extract-data-from-financial-statements",
+    "how-to-automate-1099-processing",
+    "how-to-automate-k1-processing",
+    "best-k1-extraction-software",
+    "how-to-extract-audit-evidence-from-source-documents",
+    "best-ocr-for-audit-teams",
+    "best-ocr-for-logistics",
+    "best-ocr-for-healthcare",
+    "best-document-scanning-software",
+    "best-pdf-to-qbo-converter",
+    "best-photo-to-excel-converter",
+    "best-invoice-recognition-software",
+    "best-word-to-excel-converter",
+    "best-payroll-data-extraction-software",
+    "best-jpg-to-excel-converter",
+    "best-scan-to-excel-software",
+    "best-handwriting-ocr-software",
+    "best-invoice-scanning-software",
+    "best-pdf-to-csv-converter",
+    "best-pdf-parser",
+    "best-pdf-to-excel-converter",
+    "best-purchase-order-software",
+    "best-invoice-automation-software",
+    "how-to-process-insurance-documents-multiple-payer-formats",
+    "how-to-batch-process-thousands-of-documents",
+    "best-eob-processing-software",
+    "how-to-extract-data-from-eobs-automatically",
+    "best-invoice-ocr-software",
+    "what-is-automated-data-entry",
+    "best-pdf-data-extraction-tools",
+    "best-free-ocr-software",
+    "how-to-extract-text-from-pdf",
+    "best-ocr-software",
+    "how-to-automate-freight-invoice-processing",
+    "parabola-alternative",
+    "the-true-cost-of-manual-invoice-processing",
+    "pdf-co-alternative",
+    "how-to-convert-purchase-orders-to-excel",
+    "ocr-for-manufacturing",
+    "how-to-get-extracted-data-into-erp",
+    "how-to-extract-data-from-remittance-advices"
+  ],
+  "results": {
+    "401k-audit-requirements": {
+      "new_links": [
+        {
+          "anchor_text": "Form 5500",
+          "target_slug": "form-5500-audit-requirements",
+          "paragraph": 3,
+          "link_type": "natural",
+          "reason": "Article discusses Form 5500 filing requirements directly"
+        },
+        {
+          "anchor_text": "financial statements",
+          "target_slug": "extract-data-from-financial-statements",
+          "paragraph": 7,
+          "link_type": "natural",
+          "reason": "Mentions reconciling against plan financial statements"
+        }
+      ]
+    },
+    "abbyy-alternative": {
+      "new_links": []
+    },
+    "abbyy-alternative-manufacturing": {
+      "new_links": [
+        {
+          "anchor_text": "processing purchase orders",
+          "target_slug": "best-purchase-order-ocr-software",
+          "paragraph": 4,
+          "link_type": "natural",
+          "reason": "Core topic is processing purchase orders in manufacturing"
+        },
+        {
+          "anchor_text": "handwritten PO amendments",
+          "target_slug": "extract-data-from-handwritten-documents",
+          "paragraph": 10,
+          "link_type": "natural",
+          "reason": "Discusses handwritten manufacturing documents as a challenge"
+        }
+      ]
+    },
+    "able2extract-alternative": {
+      "new_links": [
+        {
+          "anchor_text": "PDF conversion",
+          "target_slug": "best-pdf-converter",
+          "paragraph": 1,
+          "link_type": "natural",
+          "reason": "Article frames Able2Extract as a PDF conversion tool"
+        },
+        {
+          "anchor_text": "OCR accuracy degrades",
+          "target_slug": "ocr-accuracy",
+          "paragraph": 10,
+          "link_type": "natural",
+          "reason": "Discusses OCR accuracy issues with scanned documents"
+        },
+        {
+          "anchor_text": "bank statement",
+          "target_slug": "bank-statement-extraction",
+          "paragraph": 1,
+          "link_type": "natural",
+          "reason": "Mentions converting bank statements as a use case"
+        }
+      ]
+    },
+    "agentic-document-processing": {
+      "new_links": [
+        {
+          "anchor_text": "handwriting recognition",
+          "target_slug": "best-handwriting-ocr-software",
+          "paragraph": 8,
+          "link_type": "natural",
+          "reason": "Lists handwriting recognition as a tool agents can use"
+        }
+      ]
+    },
+    "ai-data-entry": {
+      "new_links": []
+    },
+    "ai-data-extraction": {
+      "new_links": [
+        {
+          "anchor_text": "handling bills of lading",
+          "target_slug": "best-bill-of-lading-ocr-software",
+          "paragraph": 2,
+          "link_type": "natural",
+          "reason": "Mentions bills of lading as example document type"
+        },
+        {
+          "anchor_text": "define extraction zones",
+          "target_slug": "the-problem-with-template-based-document-extraction-and-what-to-use-instead",
+          "paragraph": 9,
+          "link_type": "natural",
+          "reason": "Dedicated section explaining template-based extraction limitations"
+        },
+        {
+          "anchor_text": "Line-item extraction",
+          "target_slug": "line-item-extraction-from-invoices",
+          "paragraph": 26,
+          "link_type": "natural",
+          "reason": "Dedicated section on line-item extraction challenges"
+        }
+      ]
+    },
+    "ai-invoice-processing-factoring-companies": {
+      "new_links": [
+        {
+          "anchor_text": "invoice data",
+          "target_slug": "invoice-data-extraction",
+          "paragraph": 3,
+          "link_type": "natural",
+          "reason": "Describes manually typing invoice data into spreadsheets"
+        },
+        {
+          "anchor_text": "line items",
+          "target_slug": "line-item-extraction-from-invoices",
+          "paragraph": 7,
+          "link_type": "natural",
+          "reason": "Lists line items as key extracted field from invoices"
+        }
+      ]
+    },
+    "ai-to-extract-data-from-pdf": {
+      "new_links": [
+        {
+          "anchor_text": "PDF extraction tools",
+          "target_slug": "best-pdf-data-extraction-tools",
+          "paragraph": 1,
+          "link_type": "natural",
+          "reason": "Opens by discussing traditional PDF extraction tools"
+        },
+        {
+          "anchor_text": "scanned images",
+          "target_slug": "extract-text-from-scanned-pdf",
+          "paragraph": 6,
+          "link_type": "natural",
+          "reason": "Discusses OCR processing of scanned images"
+        },
+        {
+          "anchor_text": "extracts structured data",
+          "target_slug": "what-is-data-extraction",
+          "paragraph": 22,
+          "link_type": "natural",
+          "reason": "Describes AI extracting structured data from documents"
+        }
+      ]
+    },
+    "ai-tools-to-extract-data-from-pdf": {
+      "new_links": [
+        {
+          "anchor_text": "bank statements",
+          "target_slug": "bank-statement-extraction",
+          "paragraph": 4,
+          "link_type": "natural",
+          "reason": "Lists bank statements as document type Lido handles"
+        },
+        {
+          "anchor_text": "medical records",
+          "target_slug": "medical-data-extraction",
+          "paragraph": 4,
+          "link_type": "natural",
+          "reason": "Lists medical records as document type Lido handles"
+        },
+        {
+          "anchor_text": "Google Sheets",
+          "target_slug": "best-pdf-to-google-sheets-converter",
+          "paragraph": 5,
+          "link_type": "natural",
+          "reason": "Mentions Google Sheets as an export destination"
+        }
+      ]
+    },
+    "ai-vs-manual-data-entry": {
+      "new_links": [
+        {
+          "anchor_text": "purchase order",
+          "target_slug": "best-purchase-order-ocr-software",
+          "paragraph": 1,
+          "link_type": "natural",
+          "reason": "Lists purchase order as example document type"
+        },
+        {
+          "anchor_text": "breaks when layouts change",
+          "target_slug": "the-problem-with-template-based-document-extraction-and-what-to-use-instead",
+          "paragraph": 7,
+          "link_type": "natural",
+          "reason": "Discusses limitations of template-based tools"
+        }
+      ]
+    },
+    "ap-ocr-automation": {
+      "new_links": [
+        {
+          "anchor_text": "Accounts payable (AP)",
+          "target_slug": "what-is-accounts-payable-automation",
+          "paragraph": 2,
+          "link_type": "natural",
+          "reason": "Defines AP as the first concept in the article"
+        },
+        {
+          "anchor_text": "optical character recognition",
+          "target_slug": "what-is-ocr-data-extraction",
+          "paragraph": 3,
+          "link_type": "natural",
+          "reason": "Defines OCR explicitly"
+        },
+        {
+          "anchor_text": "Matching invoices against purchase orders",
+          "target_slug": "best-purchase-order-ocr-software",
+          "paragraph": 44,
+          "link_type": "natural",
+          "reason": "Discusses challenges of matching invoices against POs"
+        }
+      ]
+    },
+    "astera-alternative": {
+      "new_links": [
+        {
+          "anchor_text": "purchase orders",
+          "target_slug": "best-purchase-order-ocr-software",
+          "paragraph": 14,
+          "link_type": "natural",
+          "reason": "ACS Industries case study mentions processing purchase orders"
+        }
+      ]
+    },
+    "automate-document-processing-with-ai-agents": {
+      "new_links": []
+    },
+    "automated-data-extraction": {
+      "new_links": [
+        {
+          "anchor_text": "process bank statements",
+          "target_slug": "bank-statement-extraction",
+          "paragraph": 31,
+          "link_type": "natural",
+          "reason": "Discusses extracting data from bank statement PDFs"
+        },
+        {
+          "anchor_text": "extract patient data from medical records",
+          "target_slug": "medical-data-extraction",
+          "paragraph": 32,
+          "link_type": "natural",
+          "reason": "Healthcare use case section mentions medical records extraction"
+        },
+        {
+          "anchor_text": "extract data from bills of lading",
+          "target_slug": "best-bill-of-lading-ocr-software",
+          "paragraph": 34,
+          "link_type": "natural",
+          "reason": "Logistics use case section mentions bills of lading"
+        }
+      ]
+    },
+    "automated-data-extraction-from-pdf": {
+      "new_links": [
+        {
+          "anchor_text": "bank statement PDFs",
+          "target_slug": "bank-statement-extraction",
+          "paragraph": 14,
+          "link_type": "natural",
+          "reason": "Discusses extracting transaction tables from bank statements"
+        },
+        {
+          "anchor_text": "slows down accounts payable",
+          "target_slug": "what-is-accounts-payable-automation",
+          "paragraph": 13,
+          "link_type": "natural",
+          "reason": "Mentions AP as primary use case"
+        },
+        {
+          "anchor_text": "scanned PDFs",
+          "target_slug": "extract-text-from-scanned-pdf",
+          "paragraph": 8,
+          "link_type": "natural",
+          "reason": "Explains OCR process for scanned PDFs"
+        }
+      ]
+    },
+    "automated-invoice-processing": {
+      "new_links": [
+        {
+          "anchor_text": "Manual invoice processing",
+          "target_slug": "the-true-cost-of-manual-invoice-processing",
+          "paragraph": 1,
+          "link_type": "natural",
+          "reason": "Opens with manual invoice processing cost comparison"
+        },
+        {
+          "anchor_text": "validation is three-way matching",
+          "target_slug": "best-three-way-matching-software",
+          "paragraph": 8,
+          "link_type": "natural",
+          "reason": "Explains three-way matching as key validation step"
+        },
+        {
+          "anchor_text": "still require setup for each vendor",
+          "target_slug": "the-problem-with-template-based-document-extraction-and-what-to-use-instead",
+          "paragraph": 13,
+          "link_type": "natural",
+          "reason": "Contrasts template-based tools with AI-powered extraction"
+        }
+      ]
+    },
+    "automatic-document-classification": {
+      "new_links": [
+        {
+          "anchor_text": "Accounts payable mailboxes",
+          "target_slug": "what-is-accounts-payable-automation",
+          "paragraph": 13,
+          "link_type": "natural",
+          "reason": "Dedicated section on AP mailbox classification"
+        },
+        {
+          "anchor_text": "Insurance claims",
+          "target_slug": "best-insurance-claims-processing-software",
+          "paragraph": 14,
+          "link_type": "natural",
+          "reason": "Dedicated section on insurance claims classification"
+        }
+      ]
+    },
+    "aws-textract-alternative": {
+      "new_links": [
+        {
+          "anchor_text": "vendor invoices",
+          "target_slug": "how-to-extract-data-from-invoices-with-hundreds-of-different-vendor-formats",
+          "paragraph": 3,
+          "link_type": "natural",
+          "reason": "Mentions extracting data from 1000 vendor invoices"
+        },
+        {
+          "anchor_text": "table extraction",
+          "target_slug": "best-table-extraction-software",
+          "paragraph": 9,
+          "link_type": "natural",
+          "reason": "Dedicated section discussing table extraction reliability"
+        }
+      ]
+    },
+    "azure-document-intelligence-alternative": {
+      "new_links": [
+        {
+          "anchor_text": "Power Automate",
+          "target_slug": "best-power-automate-ocr-tools",
+          "paragraph": 1,
+          "link_type": "natural",
+          "reason": "Mentions Power Automate as part of Microsoft ecosystem"
+        },
+        {
+          "anchor_text": "customs forms",
+          "target_slug": "best-customs-document-processing-software",
+          "paragraph": 6,
+          "link_type": "natural",
+          "reason": "Lists customs forms as document type needing custom extraction"
+        }
+      ]
+    },
+    "bank-statement-extraction": {
+      "new_links": [
+        {
+          "anchor_text": "Audit teams extract transaction data",
+          "target_slug": "best-ocr-for-audit-teams",
+          "paragraph": 28,
+          "link_type": "natural",
+          "reason": "Audit use case section"
+        },
+        {
+          "anchor_text": "Scanned or paper statements",
+          "target_slug": "extract-text-from-scanned-pdf",
+          "paragraph": 5,
+          "link_type": "natural",
+          "reason": "Discusses image-based statements needing OCR (target is orphan)"
+        }
+      ]
+    },
+    "bank-statement-verification-automation": {
+      "new_links": []
+    },
+    "best-1099-processing-software": {
+      "new_links": [
+        {
+          "anchor_text": "Template-based extraction tools struggle",
+          "target_slug": "the-problem-with-template-based-document-extraction-and-what-to-use-instead",
+          "paragraph": 26,
+          "link_type": "natural",
+          "reason": "Explains why templates fail on consolidated 1099s"
+        }
+      ]
+    },
+    "best-abbyy-alternatives": {
+      "new_links": [
+        {
+          "anchor_text": "vendor changes their invoice layout",
+          "target_slug": "how-to-extract-data-from-invoices-with-hundreds-of-different-vendor-formats",
+          "paragraph": 3,
+          "link_type": "natural",
+          "reason": "Discusses ABBYY breaking on vendor format changes"
+        },
+        {
+          "anchor_text": "Azure AI Document Intelligence",
+          "target_slug": "azure-document-intelligence-alternative",
+          "paragraph": 32,
+          "link_type": "natural",
+          "reason": "Dedicated section reviewing Azure as ABBYY alternative"
+        }
+      ]
+    },
+    "best-accounts-payable-software": {
+      "new_links": []
+    },
+    "best-accounts-receivable-automation-software": {
+      "new_links": [
+        {
+          "anchor_text": "keying data into spreadsheets",
+          "target_slug": "extract-data-from-pdf-to-excel",
+          "paragraph": 24,
+          "link_type": "natural",
+          "reason": "AR article mentions keying data into spreadsheets; PDF-to-Excel orphan target"
+        }
+      ]
+    },
+    "best-ai-data-extraction-tools": {
+      "new_links": []
+    },
+    "best-ai-document-processing-no-training-required": {
+      "new_links": []
+    },
+    "best-ai-ocr-software": {
+      "new_links": [
+        {
+          "anchor_text": "AWS Textract alternative",
+          "target_slug": "aws-textract-alternative",
+          "paragraph": 10,
+          "link_type": "natural",
+          "reason": "Unlinked CTA reference to comparison article"
+        }
+      ]
+    },
+    "best-ai-tools-for-finance-teams": {
+      "new_links": [
+        {
+          "anchor_text": "extracting data from invoices",
+          "target_slug": "invoice-data-extraction",
+          "paragraph": 3,
+          "link_type": "natural",
+          "reason": "Lists invoice extraction as key finance team need (target is orphan)"
+        }
+      ]
+    },
+    "best-ap-automation-software-for-smbs": {
+      "new_links": [
+        {
+          "anchor_text": "three-way PO matching",
+          "target_slug": "best-three-way-matching-software",
+          "paragraph": 1,
+          "link_type": "natural",
+          "reason": "Mentions three-way PO matching as enterprise feature"
+        }
+      ]
+    },
+    "best-audit-software-for-cpa-firms": {
+      "new_links": []
+    },
+    "best-automated-document-processing-software": {
+      "new_links": [
+        {
+          "anchor_text": "insurance claims processing",
+          "target_slug": "best-insurance-claims-processing-software",
+          "paragraph": 25,
+          "link_type": "natural",
+          "reason": "Hyperscience section lists insurance claims as focus vertical"
+        }
+      ]
+    },
+    "best-automated-invoice-processing-software": {
+      "new_links": [
+        {
+          "anchor_text": "two-way and three-way matching",
+          "target_slug": "best-three-way-matching-software",
+          "paragraph": 20,
+          "link_type": "natural",
+          "reason": "Stampli section describes PO matching capability"
+        },
+        {
+          "anchor_text": "data extraction from many vendor formats",
+          "target_slug": "how-to-extract-data-from-invoices-with-hundreds-of-different-vendor-formats",
+          "paragraph": 43,
+          "link_type": "natural",
+          "reason": "Closing section recommends extraction for multi-vendor teams"
+        }
+      ]
+    },
+    "best-bank-statement-analysis-software": {
+      "new_links": []
+    },
+    "best-bank-statement-converter": {
+      "new_links": []
+    },
+    "best-bank-statement-extraction-software": {
+      "new_links": []
+    },
+    "best-bank-statement-ocr-software": {
+      "new_links": []
+    },
+    "best-bank-statement-parser": {
+      "new_links": []
+    },
+    "best-batch-document-processing-software": {
+      "new_links": [
+        {
+          "anchor_text": "classify document types",
+          "target_slug": "automatic-document-classification",
+          "paragraph": 3,
+          "link_type": "natural",
+          "reason": "Describes batch classification as core capability"
+        }
+      ]
+    },
+    "best-bill-of-lading-ocr-software": {
+      "new_links": [
+        {
+          "anchor_text": "handwritten fields",
+          "target_slug": "extract-data-from-handwritten-documents",
+          "paragraph": "P3",
+          "link_type": "contextual",
+          "reason": "BOL article discusses handwritten field challenges"
+        }
+      ]
+    },
+    "best-chatgpt-alternatives-tax-documents": {
+      "new_links": [
+        {
+          "anchor_text": "document classification",
+          "target_slug": "automatic-document-classification",
+          "paragraph": "P5",
+          "link_type": "contextual",
+          "reason": "Tax doc article mentions classification"
+        }
+      ]
+    },
+    "best-check-ocr-software": {
+      "new_links": []
+    },
+    "best-coi-processing-software": {
+      "new_links": []
+    },
+    "best-compliance-audit-software": {
+      "new_links": [
+        {
+          "anchor_text": "financial reports",
+          "target_slug": "extract-data-from-financial-statements",
+          "paragraph": "P4",
+          "link_type": "contextual",
+          "reason": "Compliance audit mentions financial reports"
+        }
+      ]
+    },
+    "best-contract-extraction-software": {
+      "new_links": []
+    },
+    "best-customs-document-processing-software": {
+      "new_links": [
+        {
+          "anchor_text": "keying line items from a PDF",
+          "target_slug": "how-to-extract-line-items-tax-details-and-custom-fields-from-any-invoice",
+          "paragraph": "P28",
+          "link_type": "contextual",
+          "reason": "Customs doc discusses line item extraction"
+        }
+      ]
+    },
+    "best-customs-document-processing-software-e7fad": {
+      "new_links": []
+    },
+    "best-data-entry-automation-software": {
+      "new_links": [
+        {
+          "anchor_text": "document extraction problem",
+          "target_slug": "what-is-data-extraction",
+          "paragraph": "P35",
+          "link_type": "contextual",
+          "reason": "Data entry automation references extraction concept"
+        }
+      ]
+    },
+    "best-data-entry-software-small-business": {
+      "new_links": []
+    },
+    "best-data-extraction-tools": {
+      "new_links": []
+    },
+    "best-data-extraction-tools-7bd9e": {
+      "new_links": []
+    },
+    "best-datasnipper-alternatives": {
+      "new_links": []
+    },
+    "best-delivery-note-ocr-software": {
+      "new_links": []
+    },
+    "best-delivery-note-ocr-software-82313": {
+      "new_links": []
+    },
+    "best-docparser-alternatives-when-your-templates-stop-scaling": {
+      "new_links": []
+    },
+    "best-document-ai-tools": {
+      "new_links": []
+    },
+    "best-document-automation-software": {
+      "new_links": []
+    },
+    "best-document-automation-software-for-cpa-firms": {
+      "new_links": []
+    },
+    "best-document-capture-software": {
+      "new_links": []
+    },
+    "best-email-to-spreadsheet-tools": {
+      "new_links": [
+        {
+          "anchor_text": "eliminate manual data entry",
+          "target_slug": "ai-data-entry",
+          "paragraph": "P36",
+          "link_type": "contextual",
+          "reason": "Email-to-spreadsheet mentions eliminating manual entry; orphan target"
+        }
+      ]
+    },
+    "best-financial-document-automation-software": {
+      "new_links": []
+    },
+    "best-freight-invoice-processing-software": {
+      "new_links": [
+        {
+          "anchor_text": "delivery receipts",
+          "target_slug": "best-delivery-note-ocr-software",
+          "paragraph": "P5",
+          "link_type": "contextual",
+          "reason": "Freight invoice mentions delivery receipts; orphan target"
+        }
+      ]
+    },
+    "best-google-drive-ocr-tools": {
+      "new_links": [
+        {
+          "anchor_text": "delivery notes",
+          "target_slug": "best-delivery-note-ocr-software",
+          "paragraph": "P6",
+          "link_type": "contextual",
+          "reason": "Google Drive OCR lists delivery notes; orphan target"
+        }
+      ]
+    },
+    "best-image-to-excel-tools": {
+      "new_links": [
+        {
+          "anchor_text": "handwritten annotations",
+          "target_slug": "extract-data-from-handwritten-documents",
+          "paragraph": "P22",
+          "link_type": "contextual",
+          "reason": "Image-to-Excel discusses handwritten annotation issues"
+        }
+      ]
+    },
+    "best-information-extraction-tools": {
+      "new_links": [
+        {
+          "anchor_text": "structured formats",
+          "target_slug": "what-is-data-extraction",
+          "paragraph": "P1",
+          "link_type": "contextual",
+          "reason": "Info extraction intro mentions structured formats"
+        },
+        {
+          "anchor_text": "financial documents",
+          "target_slug": "extract-data-from-financial-statements",
+          "paragraph": "P47",
+          "link_type": "contextual",
+          "reason": "Decision framework mentions financial docs; orphan target"
+        },
+        {
+          "anchor_text": "data arrives by email",
+          "target_slug": "best-email-to-spreadsheet-tools",
+          "paragraph": "P47",
+          "link_type": "contextual",
+          "reason": "Decision framework mentions email data"
+        }
+      ]
+    },
+    "best-invoice-capture-software": {
+      "new_links": [
+        {
+          "anchor_text": "accounts payable",
+          "target_slug": "ap-ocr-automation",
+          "paragraph": "P1",
+          "link_type": "contextual",
+          "reason": "Invoice capture intro mentions AP; orphan target"
+        },
+        {
+          "anchor_text": "manual data entry",
+          "target_slug": "ai-data-entry",
+          "paragraph": "P1",
+          "link_type": "contextual",
+          "reason": "Invoice capture intro mentions manual entry; orphan target"
+        }
+      ]
+    },
+    "best-nanonets-alternatives": {
+      "new_links": [
+        {
+          "anchor_text": "AP teams",
+          "target_slug": "ap-ocr-automation",
+          "paragraph": "P2",
+          "link_type": "contextual",
+          "reason": "Article mentions AP teams; orphan target"
+        },
+        {
+          "anchor_text": "process bills of lading",
+          "target_slug": "best-bill-of-lading-ocr-software",
+          "paragraph": "P2",
+          "link_type": "contextual",
+          "reason": "Article mentions BOL processing"
+        },
+        {
+          "anchor_text": "scanned or degraded documents",
+          "target_slug": "best-ai-ocr-software",
+          "paragraph": "P47",
+          "link_type": "contextual",
+          "reason": "Decision framework mentions scan quality"
+        }
+      ]
+    },
+    "best-ocr-software-for-invoice-processing": {
+      "new_links": [
+        {
+          "anchor_text": "structured data",
+          "target_slug": "what-is-data-extraction",
+          "paragraph": "P1",
+          "link_type": "contextual",
+          "reason": "Invoice OCR intro mentions structured data"
+        },
+        {
+          "anchor_text": "extract line items accurately",
+          "target_slug": "how-to-extract-line-items-tax-details-and-custom-fields-from-any-invoice",
+          "paragraph": "P1",
+          "link_type": "contextual",
+          "reason": "Invoice OCR intro mentions line item extraction"
+        }
+      ]
+    },
+    "best-outlook-email-parser-tools": {
+      "new_links": [
+        {
+          "anchor_text": "PDF or image attachments",
+          "target_slug": "ai-to-extract-data-from-pdf",
+          "paragraph": "P25",
+          "link_type": "contextual",
+          "reason": "Outlook parser conclusion mentions PDF attachments; orphan target"
+        }
+      ]
+    },
+    "pdf-data-scraping": {
+      "new_links": [
+        {
+          "anchor_text": "handwritten content",
+          "target_slug": "extract-data-from-handwritten-documents",
+          "paragraph": "P19",
+          "link_type": "contextual",
+          "reason": "PDF scraping discusses OCR failing on handwritten content; orphan target"
+        },
+        {
+          "anchor_text": "Medical records, insurance forms",
+          "target_slug": "medical-data-extraction",
+          "paragraph": "P24",
+          "link_type": "contextual",
+          "reason": "Healthcare use case mentions medical records; orphan target"
+        }
+      ]
+    },
+    "extract-information-from-pdf": {
+      "new_links": [
+        {
+          "anchor_text": "fillable PDF forms",
+          "target_slug": "extract-data-from-pdf-form",
+          "paragraph": "P6",
+          "link_type": "contextual",
+          "reason": "Guide mentions fillable forms as content type; orphan target"
+        }
+      ]
+    },
+    "extract-text-from-scanned-pdf": {
+      "new_links": []
+    },
+    "extract-text-from-pdf-image": {
+      "new_links": [
+        {
+          "anchor_text": "OCR technology",
+          "target_slug": "what-is-ocr-data-extraction",
+          "paragraph": "P4",
+          "link_type": "contextual",
+          "reason": "Explains OCR needed for image PDFs; orphan target"
+        }
+      ]
+    },
+    "extract-data-from-pdf-to-excel": {
+      "new_links": [
+        {
+          "anchor_text": "scanned documents",
+          "target_slug": "extract-text-from-scanned-pdf",
+          "paragraph": "P13",
+          "link_type": "contextual",
+          "reason": "Python method lacks OCR; links to scanned PDF guide; orphan target"
+        }
+      ]
+    },
+    "extract-data-from-pdf-form": {
+      "new_links": [
+        {
+          "anchor_text": "handwritten responses",
+          "target_slug": "extract-data-from-handwritten-documents",
+          "paragraph": "P16",
+          "link_type": "contextual",
+          "reason": "Form extraction discusses handwritten response challenges; orphan target"
+        }
+      ]
+    },
+    "copy-text-from-pdf": {
+      "new_links": [
+        {
+          "anchor_text": "For scanned PDFs, it runs OCR",
+          "target_slug": "extract-text-from-scanned-pdf",
+          "paragraph": "P18",
+          "link_type": "contextual",
+          "reason": "Acrobat section mentions scanned PDFs; links to dedicated guide; orphan target"
+        }
+      ]
+    },
+    "copy-data-from-pdf-to-excel": {
+      "new_links": [
+        {
+          "anchor_text": "extract tables from PDFs",
+          "target_slug": "best-table-extraction-software",
+          "paragraph": "P14",
+          "link_type": "contextual",
+          "reason": "Python section discusses table extraction; links to tools guide"
+        }
+      ]
+    },
+    "pdf-parsing-technologies": {
+      "new_links": [
+        {
+          "anchor_text": "categorize documents",
+          "target_slug": "automatic-document-classification",
+          "paragraph": "P22",
+          "link_type": "contextual",
+          "reason": "NLP section discusses document categorization"
+        },
+        {
+          "anchor_text": "Table detection",
+          "target_slug": "best-table-extraction-software",
+          "paragraph": "P25",
+          "link_type": "contextual",
+          "reason": "ML section discusses table detection as key parsing challenge"
+        }
+      ]
+    },
+    "pdf-parsing-techniques": {
+      "new_links": [
+        {
+          "anchor_text": "extracting line items from invoices",
+          "target_slug": "line-item-extraction-from-invoices",
+          "paragraph": "P14",
+          "link_type": "contextual",
+          "reason": "Table extraction use case mentions invoice line items"
+        },
+        {
+          "anchor_text": "help with document classification",
+          "target_slug": "automatic-document-classification",
+          "paragraph": "P28",
+          "link_type": "contextual",
+          "reason": "Metadata section mentions classification as use case"
+        }
+      ]
+    },
+    "best-pdf-parsing-tools": {
+      "new_links": [
+        {
+          "anchor_text": "extracting field values from invoices",
+          "target_slug": "invoice-data-extraction",
+          "paragraph": "P1",
+          "link_type": "contextual",
+          "reason": "Intro mentions invoice field extraction"
+        }
+      ]
+    },
+    "extract-data-from-pdf-to-database": {
+      "new_links": []
+    },
+    "copy-table-from-pdf-to-google-sheets": {
+      "new_links": [
+        {
+          "anchor_text": "PDF-to-Excel converter",
+          "target_slug": "extract-data-from-pdf-to-excel",
+          "paragraph": "P8",
+          "link_type": "contextual",
+          "reason": "Method 2 uses PDF-to-Excel conversion; orphan target"
+        },
+        {
+          "anchor_text": "scanned documents lack selectable text",
+          "target_slug": "extract-text-from-scanned-pdf",
+          "paragraph": "P7",
+          "link_type": "contextual",
+          "reason": "Copy-paste fails on scanned docs; orphan target"
+        },
+        {
+          "anchor_text": "built-in OCR",
+          "target_slug": "what-is-ocr-data-extraction",
+          "paragraph": "P11",
+          "link_type": "contextual",
+          "reason": "Google Docs OCR method; links to OCR explainer"
+        }
+      ]
+    },
+    "extract-text-from-pdf": {
+      "new_links": [
+        {
+          "anchor_text": "fillable form fields",
+          "target_slug": "extract-data-from-pdf-form",
+          "paragraph": "P6",
+          "link_type": "contextual",
+          "reason": "Form-based PDFs section; orphan target"
+        }
+      ]
+    },
+    "extract-table-from-pdf": {
+      "new_links": [
+        {
+          "anchor_text": "table extraction solution",
+          "target_slug": "best-table-extraction-software",
+          "paragraph": "P14",
+          "link_type": "contextual",
+          "reason": "Acrobat not dedicated; links to actual table tools"
+        },
+        {
+          "anchor_text": "gets harder with scanned PDFs",
+          "target_slug": "extract-text-from-scanned-pdf",
+          "paragraph": "P5",
+          "link_type": "contextual",
+          "reason": "Lists scanned PDFs as key challenge; orphan target"
+        }
+      ]
+    },
+    "ocr-in-banking": {
+      "new_links": [
+        {
+          "anchor_text": "scanned or photographed checks",
+          "target_slug": "best-check-ocr-software",
+          "paragraph": "P15",
+          "link_type": "contextual",
+          "reason": "Check clearing section; direct topic match"
+        },
+        {
+          "anchor_text": "prepare for audits",
+          "target_slug": "best-ocr-for-audit-teams",
+          "paragraph": "P17",
+          "link_type": "contextual",
+          "reason": "Bank statement audit use case"
+        }
+      ]
+    },
+    "finance-automation": {
+      "new_links": []
+    },
+    "extract-data-from-financial-statements": {
+      "new_links": [
+        {
+          "anchor_text": "Audit teams",
+          "target_slug": "best-ocr-for-audit-teams",
+          "paragraph": "P23",
+          "link_type": "contextual",
+          "reason": "Audit use case for financial statement extraction"
+        }
+      ]
+    },
+    "legal-document-data-extraction": {
+      "new_links": [
+        {
+          "anchor_text": "Automated extraction",
+          "target_slug": "automated-data-extraction",
+          "paragraph": "P7",
+          "link_type": "contextual",
+          "reason": "Consistency benefit of automation; orphan target"
+        },
+        {
+          "anchor_text": "Extracting key terms",
+          "target_slug": "best-information-extraction-tools",
+          "paragraph": "P8",
+          "link_type": "contextual",
+          "reason": "Contract term extraction; orphan target"
+        },
+        {
+          "anchor_text": "Modern OCR",
+          "target_slug": "best-ai-ocr-software",
+          "paragraph": "P16",
+          "link_type": "contextual",
+          "reason": "OCR technology for legal docs"
+        },
+        {
+          "anchor_text": "high accuracy",
+          "target_slug": "ocr-accuracy",
+          "paragraph": "P16",
+          "link_type": "contextual",
+          "reason": "OCR accuracy discussion; links to accuracy guide"
+        }
+      ]
+    },
+    "ocr-data-entry": {
+      "new_links": [
+        {
+          "anchor_text": "patient records",
+          "target_slug": "medical-data-extraction",
+          "paragraph": "P17",
+          "link_type": "contextual",
+          "reason": "Healthcare OCR use case; orphan target"
+        },
+        {
+          "anchor_text": "process checks",
+          "target_slug": "best-check-ocr-software",
+          "paragraph": "P19",
+          "link_type": "contextual",
+          "reason": "Banking OCR use case"
+        }
+      ]
+    },
+    "financial-data-extraction": {
+      "new_links": [
+        {
+          "anchor_text": "AP workflow",
+          "target_slug": "what-is-accounts-payable-automation",
+          "paragraph": "P24",
+          "link_type": "contextual",
+          "reason": "Invoice data feeds into AP workflow"
+        },
+        {
+          "anchor_text": "review and verify financial data",
+          "target_slug": "best-ocr-for-audit-teams",
+          "paragraph": "P29",
+          "link_type": "contextual",
+          "reason": "Audit use case for financial data extraction"
+        },
+        {
+          "anchor_text": "reduce OCR accuracy",
+          "target_slug": "ocr-accuracy",
+          "paragraph": "P33",
+          "link_type": "contextual",
+          "reason": "Scanned doc challenges affect OCR accuracy"
+        }
+      ]
+    },
+    "document-information-extraction": {
+      "new_links": [
+        {
+          "anchor_text": "classify each document",
+          "target_slug": "automatic-document-classification",
+          "paragraph": "P29",
+          "link_type": "contextual",
+          "reason": "Document intake classification use case"
+        },
+        {
+          "anchor_text": "Contracts and agreements",
+          "target_slug": "legal-document-data-extraction",
+          "paragraph": "P18",
+          "link_type": "contextual",
+          "reason": "Legal doc type section"
+        },
+        {
+          "anchor_text": "Patient demographics, diagnoses, medications",
+          "target_slug": "medical-data-extraction",
+          "paragraph": "P20",
+          "link_type": "contextual",
+          "reason": "Healthcare doc type section"
+        }
+      ]
+    },
+    "key-information-extraction": {
+      "new_links": [
+        {
+          "anchor_text": "extract invoice data",
+          "target_slug": "invoice-data-extraction",
+          "paragraph": "P21",
+          "link_type": "contextual",
+          "reason": "Finance KIE use case"
+        },
+        {
+          "anchor_text": "key terms from contracts",
+          "target_slug": "legal-document-data-extraction",
+          "paragraph": "P22",
+          "link_type": "contextual",
+          "reason": "Legal KIE use case"
+        },
+        {
+          "anchor_text": "audit preparation",
+          "target_slug": "best-ocr-for-audit-teams",
+          "paragraph": "P25",
+          "link_type": "contextual",
+          "reason": "Compliance KIE use case"
+        },
+        {
+          "anchor_text": "reads text from images",
+          "target_slug": "what-is-ocr-data-extraction",
+          "paragraph": "P12",
+          "link_type": "contextual",
+          "reason": "OCR definition context"
+        }
+      ]
+    },
+    "resume-information-extraction": {
+      "new_links": [
+        {
+          "anchor_text": "template-based parsing",
+          "target_slug": "the-problem-with-template-based-document-extraction-and-what-to-use-instead",
+          "paragraph": "P19",
+          "link_type": "contextual",
+          "reason": "Template parsing fails on varied resume formats"
+        }
+      ]
+    },
+    "data-parsing": {
+      "new_links": [
+        {
+          "anchor_text": "PDF data parsing",
+          "target_slug": "pdf-data-scraping",
+          "paragraph": "P17",
+          "link_type": "contextual",
+          "reason": "PDF parsing section; orphan target"
+        },
+        {
+          "anchor_text": "Email parsing",
+          "target_slug": "email-data-extraction",
+          "paragraph": "P21",
+          "link_type": "contextual",
+          "reason": "Email parsing use case"
+        },
+        {
+          "anchor_text": "Medical record parsing",
+          "target_slug": "medical-data-extraction",
+          "paragraph": "P24",
+          "link_type": "contextual",
+          "reason": "Healthcare parsing use case"
+        }
+      ]
+    },
+    "email-data-extraction": {
+      "new_links": [
+        {
+          "anchor_text": "receipt data",
+          "target_slug": "receipt-processing",
+          "paragraph": "P26",
+          "link_type": "contextual",
+          "reason": "Expense receipt extraction use case"
+        },
+        {
+          "anchor_text": "from PDF or image attachments",
+          "target_slug": "ai-to-extract-data-from-pdf",
+          "paragraph": "P18",
+          "link_type": "contextual",
+          "reason": "Email attachments require PDF extraction"
+        }
+      ]
+    },
+    "utility-invoice-management": {
+      "new_links": [
+        {
+          "anchor_text": "different invoice format",
+          "target_slug": "how-to-extract-data-from-invoices-with-hundreds-of-different-vendor-formats",
+          "paragraph": "P13",
+          "link_type": "contextual",
+          "reason": "Multiple utility providers with varied formats"
+        },
+        {
+          "anchor_text": "process utility invoices by hand",
+          "target_slug": "best-utility-bill-ocr-software",
+          "paragraph": "P15",
+          "link_type": "contextual",
+          "reason": "Manual utility bill processing; orphan target"
+        }
+      ]
+    },
+    "medical-data-extraction": {
+      "new_links": [
+        {
+          "anchor_text": "Handwriting recognition in healthcare",
+          "target_slug": "best-handwriting-ocr-software",
+          "paragraph": "P33",
+          "link_type": "contextual",
+          "reason": "Medical handwriting challenge"
+        }
+      ]
+    },
+    "data-extraction-in-healthcare": {
+      "new_links": [
+        {
+          "anchor_text": "Insurance claims contain procedure codes",
+          "target_slug": "best-insurance-claims-processing-software",
+          "paragraph": "P7",
+          "link_type": "contextual",
+          "reason": "Claims processing doc type section"
+        },
+        {
+          "anchor_text": "handwritten prescriptions",
+          "target_slug": "best-handwriting-ocr-software",
+          "paragraph": "P20",
+          "link_type": "contextual",
+          "reason": "Handwritten Rx challenge"
+        }
+      ]
+    },
+    "receipt-processing": {
+      "new_links": [
+        {
+          "anchor_text": "invoice processing",
+          "target_slug": "automated-invoice-processing",
+          "paragraph": "P22",
+          "link_type": "contextual",
+          "reason": "Receipt vs invoice processing comparison"
+        }
+      ]
+    },
+    "receipt-capturing": {
+      "new_links": [
+        {
+          "anchor_text": "use OCR with predefined rules",
+          "target_slug": "the-problem-with-template-based-document-extraction-and-what-to-use-instead",
+          "paragraph": "P11",
+          "link_type": "contextual",
+          "reason": "Template approach discussion"
+        },
+        {
+          "anchor_text": "Line-item data",
+          "target_slug": "line-item-extraction-from-invoices",
+          "paragraph": "P18",
+          "link_type": "contextual",
+          "reason": "Line item extraction for expense reporting"
+        }
+      ]
+    },
+    "receipt-data-extraction": {
+      "new_links": [
+        {
+          "anchor_text": "extraction from delivery receipts",
+          "target_slug": "best-delivery-note-ocr-software",
+          "paragraph": "P5",
+          "link_type": "contextual",
+          "reason": "Delivery receipt extraction use case; boost orphan"
+        },
+        {
+          "anchor_text": "handwritten notes",
+          "target_slug": "best-handwriting-ocr-software",
+          "paragraph": "P8",
+          "link_type": "contextual",
+          "reason": "Handwriting challenge in receipt OCR"
+        },
+        {
+          "anchor_text": "invoice extraction",
+          "target_slug": "invoice-data-extraction",
+          "paragraph": "P25",
+          "link_type": "contextual",
+          "reason": "Receipt vs invoice extraction comparison"
+        },
+        {
+          "anchor_text": "structured format",
+          "target_slug": "what-is-data-extraction",
+          "paragraph": "P10",
+          "link_type": "contextual",
+          "reason": "Structured data output concept"
+        }
+      ]
+    },
+    "supplier-invoice-automation": {
+      "new_links": [
+        {
+          "anchor_text": "manually entering invoice data",
+          "target_slug": "ai-data-entry",
+          "paragraph": "P2",
+          "link_type": "contextual",
+          "reason": "Manual entry problem; boost orphan"
+        },
+        {
+          "anchor_text": "data capture",
+          "target_slug": "what-is-data-extraction",
+          "paragraph": "P3",
+          "link_type": "contextual",
+          "reason": "Data capture concept"
+        },
+        {
+          "anchor_text": "setup work for every new vendor",
+          "target_slug": "how-to-extract-data-from-invoices-with-hundreds-of-different-vendor-formats",
+          "paragraph": "P20",
+          "link_type": "contextual",
+          "reason": "Vendor format variety challenge"
+        }
+      ]
+    },
+    "invoice-validation": {
+      "new_links": [
+        {
+          "anchor_text": "adds the goods receipt or delivery note",
+          "target_slug": "best-three-way-matching-software",
+          "paragraph": "P14",
+          "link_type": "contextual",
+          "reason": "Three-way matching process detail"
+        },
+        {
+          "anchor_text": "Automating data capture",
+          "target_slug": "ai-data-entry",
+          "paragraph": "P26",
+          "link_type": "contextual",
+          "reason": "Automation of data entry step"
+        },
+        {
+          "anchor_text": "PO-backed invoices",
+          "target_slug": "purchase-invoice-processing",
+          "paragraph": "P4",
+          "link_type": "contextual",
+          "reason": "Cross-link to PO invoice workflow; boost orphan"
+        }
+      ]
+    },
+    "purchase-invoice-processing": {
+      "new_links": [
+        {
+          "anchor_text": "reads text from documents",
+          "target_slug": "what-is-ocr-data-extraction",
+          "paragraph": "P12",
+          "link_type": "contextual",
+          "reason": "OCR concept in data capture step"
+        },
+        {
+          "anchor_text": "critical for audits",
+          "target_slug": "best-ocr-for-audit-teams",
+          "paragraph": "P16",
+          "link_type": "contextual",
+          "reason": "Audit documentation importance"
+        },
+        {
+          "anchor_text": "Typing invoice data by hand",
+          "target_slug": "ai-data-entry",
+          "paragraph": "P26",
+          "link_type": "contextual",
+          "reason": "Manual entry bottleneck"
+        },
+        {
+          "anchor_text": "utility bills",
+          "target_slug": "best-utility-bill-ocr-software",
+          "paragraph": "P6",
+          "link_type": "contextual",
+          "reason": "Non-PO invoice example; boost orphan"
+        }
+      ]
+    },
+    "invoice-processing-system": {
+      "new_links": [
+        {
+          "anchor_text": "captures invoice data",
+          "target_slug": "invoice-data-extraction",
+          "paragraph": "P4",
+          "link_type": "contextual",
+          "reason": "Invoice data capture concept"
+        },
+        {
+          "anchor_text": "digital audit trail",
+          "target_slug": "best-ocr-for-audit-teams",
+          "paragraph": "P17",
+          "link_type": "contextual",
+          "reason": "Audit trail benefit"
+        },
+        {
+          "anchor_text": "vendors change their formats",
+          "target_slug": "how-to-extract-data-from-invoices-with-hundreds-of-different-vendor-formats",
+          "paragraph": "P23",
+          "link_type": "contextual",
+          "reason": "Vendor format diversity challenge"
+        }
+      ]
+    },
+    "invoice-automation-benefits": {
+      "new_links": [
+        {
+          "anchor_text": "AI for data extraction",
+          "target_slug": "what-is-data-extraction",
+          "paragraph": "P4",
+          "link_type": "contextual",
+          "reason": "Data extraction concept"
+        },
+        {
+          "anchor_text": "matching it against purchase orders",
+          "target_slug": "invoice-validation",
+          "paragraph": "P2",
+          "link_type": "contextual",
+          "reason": "Cross-link to validation process; boost orphan"
+        },
+        {
+          "anchor_text": "add three-way matching, duplicate detection",
+          "target_slug": "best-three-way-matching-software",
+          "paragraph": "P22",
+          "link_type": "contextual",
+          "reason": "Three-way matching as advanced automation step"
+        }
+      ]
+    },
+    "ocr-solution-for-invoice-processing": {
+      "new_links": [
+        {
+          "anchor_text": "line item extraction",
+          "target_slug": "line-item-extraction-from-invoices",
+          "paragraph": "P30",
+          "link_type": "contextual",
+          "reason": "Line item accuracy evaluation"
+        },
+        {
+          "anchor_text": "email attachments",
+          "target_slug": "email-data-extraction",
+          "paragraph": "P7",
+          "link_type": "contextual",
+          "reason": "Email invoice intake; boost low-usage target"
+        },
+        {
+          "anchor_text": "each vendor's invoice layout",
+          "target_slug": "how-to-extract-data-from-invoices-with-hundreds-of-different-vendor-formats",
+          "paragraph": "P13",
+          "link_type": "contextual",
+          "reason": "Template per vendor problem"
+        }
+      ]
+    },
+    "ocr-for-invoice-processing": {
+      "new_links": [
+        {
+          "anchor_text": "Template-based systems",
+          "target_slug": "the-problem-with-template-based-document-extraction-and-what-to-use-instead",
+          "paragraph": "P11",
+          "link_type": "contextual",
+          "reason": "Template vs AI comparison"
+        },
+        {
+          "anchor_text": "outputs structured data",
+          "target_slug": "what-is-data-extraction",
+          "paragraph": "P5",
+          "link_type": "contextual",
+          "reason": "Structured data output concept"
+        },
+        {
+          "anchor_text": "different table formats",
+          "target_slug": "best-table-extraction-software",
+          "paragraph": "P24",
+          "link_type": "contextual",
+          "reason": "Table format challenge in line items"
+        }
+      ]
+    },
+    "template-less-invoice-extraction": {
+      "new_links": [
+        {
+          "anchor_text": "template-based system",
+          "target_slug": "the-problem-with-template-based-document-extraction-and-what-to-use-instead",
+          "paragraph": "P6",
+          "link_type": "contextual",
+          "reason": "Template approach contrast"
+        },
+        {
+          "anchor_text": "dozens or hundreds of vendors",
+          "target_slug": "how-to-extract-data-from-invoices-with-hundreds-of-different-vendor-formats",
+          "paragraph": "P8",
+          "link_type": "contextual",
+          "reason": "Vendor scale challenge"
+        },
+        {
+          "anchor_text": "Line item extraction quality",
+          "target_slug": "line-item-extraction-from-invoices",
+          "paragraph": "P24",
+          "link_type": "contextual",
+          "reason": "Line item quality evaluation"
+        }
+      ]
+    },
+    "invoice-data-extraction-as-a-service": {
+      "new_links": [
+        {
+          "anchor_text": "identifies the document type",
+          "target_slug": "automatic-document-classification",
+          "paragraph": "P7",
+          "link_type": "contextual",
+          "reason": "Document classification step in extraction service"
+        },
+        {
+          "anchor_text": "accurately extracts individual line items",
+          "target_slug": "line-item-extraction-from-invoices",
+          "paragraph": "P19",
+          "link_type": "contextual",
+          "reason": "Line item accuracy as key evaluation factor"
+        },
+        {
+          "anchor_text": "purchase order numbers",
+          "target_slug": "best-purchase-order-ocr-software",
+          "paragraph": "P4",
+          "link_type": "contextual",
+          "reason": "PO number extraction capability"
+        }
+      ]
+    },
+    "what-is-invoice-management": {
+      "new_links": [
+        {
+          "anchor_text": "handling a single invoice",
+          "target_slug": "what-is-invoice-processing",
+          "paragraph": "P3",
+          "link_type": "contextual",
+          "reason": "Cross-link to detailed processing guide; boost orphan"
+        },
+        {
+          "anchor_text": "purchase order and the goods receipt",
+          "target_slug": "best-three-way-matching-software",
+          "paragraph": "P8",
+          "link_type": "contextual",
+          "reason": "Three-way matching concept"
+        },
+        {
+          "anchor_text": "Typing every invoice by hand",
+          "target_slug": "ai-data-entry",
+          "paragraph": "P21",
+          "link_type": "contextual",
+          "reason": "Manual entry problem"
+        }
+      ]
+    },
+    "what-is-invoice-processing": {
+      "new_links": [
+        {
+          "anchor_text": "verify that the charges are correct",
+          "target_slug": "invoice-validation",
+          "paragraph": "P3",
+          "link_type": "contextual",
+          "reason": "Cross-link to validation process; boost orphan"
+        },
+        {
+          "anchor_text": "a different invoice layout",
+          "target_slug": "how-to-extract-data-from-invoices-with-hundreds-of-different-vendor-formats",
+          "paragraph": "P21",
+          "link_type": "contextual",
+          "reason": "Vendor format inconsistency challenge"
+        },
+        {
+          "anchor_text": "audit readiness",
+          "target_slug": "best-ocr-for-audit-teams",
+          "paragraph": "P18",
+          "link_type": "contextual",
+          "reason": "Compliance and audit benefit"
+        }
+      ]
+    },
+    "reduce-manual-invoice-processing": {
+      "new_links": [
+        {
+          "anchor_text": "AI-powered extraction",
+          "target_slug": "invoice-data-extraction",
+          "paragraph": "P13",
+          "link_type": "contextual",
+          "reason": "Core automation step"
+        },
+        {
+          "anchor_text": "handle new vendor formats",
+          "target_slug": "how-to-extract-data-from-invoices-with-hundreds-of-different-vendor-formats",
+          "paragraph": "P14",
+          "link_type": "contextual",
+          "reason": "Vendor format variety advantage of AI"
+        },
+        {
+          "anchor_text": "invoice can be approved automatically",
+          "target_slug": "automated-invoice-processing",
+          "paragraph": "P20",
+          "link_type": "contextual",
+          "reason": "Auto-approval via three-way matching; boost low-usage target"
+        }
+      ]
+    },
+    "line-item-extraction-from-invoices": {
+      "new_links": [
+        {
+          "anchor_text": "the line item table",
+          "target_slug": "best-table-extraction-software",
+          "paragraph": "P17",
+          "link_type": "contextual",
+          "reason": "Table detection step in extraction"
+        },
+        {
+          "anchor_text": "every vendor layout",
+          "target_slug": "how-to-extract-data-from-invoices-with-hundreds-of-different-vendor-formats",
+          "paragraph": "P30",
+          "link_type": "contextual",
+          "reason": "Vendor layout variety problem"
+        },
+        {
+          "anchor_text": "rely on predefined coordinates",
+          "target_slug": "the-problem-with-template-based-document-extraction-and-what-to-use-instead",
+          "paragraph": "P18",
+          "link_type": "contextual",
+          "reason": "Template vs AI comparison"
+        }
+      ]
+    },
+    "invoice-line-item": {
+      "new_links": [
+        {
+          "anchor_text": "match invoices against purchase orders",
+          "target_slug": "best-purchase-order-ocr-software",
+          "paragraph": "P4",
+          "link_type": "contextual",
+          "reason": "PO matching use case for line items"
+        },
+        {
+          "anchor_text": "manual entry becomes a bottleneck",
+          "target_slug": "ai-data-entry",
+          "paragraph": "P23",
+          "link_type": "contextual",
+          "reason": "Manual entry scaling problem"
+        },
+        {
+          "anchor_text": "Multi-page table handling",
+          "target_slug": "best-table-extraction-software",
+          "paragraph": "P27",
+          "link_type": "contextual",
+          "reason": "Multi-page table challenge"
+        }
+      ]
+    },
+    "invoice-data-extraction": {
+      "new_links": [
+        {
+          "anchor_text": "matching in accounts payable",
+          "target_slug": "what-is-accounts-payable-automation",
+          "paragraph": "P13",
+          "link_type": "contextual",
+          "reason": "AP automation context for three-way matching"
+        },
+        {
+          "anchor_text": "individual products or services listed",
+          "target_slug": "line-item-extraction-from-invoices",
+          "paragraph": "P19",
+          "link_type": "contextual",
+          "reason": "Line item extraction detail"
+        },
+        {
+          "anchor_text": "the template breaks",
+          "target_slug": "the-problem-with-template-based-document-extraction-and-what-to-use-instead",
+          "paragraph": "P7",
+          "link_type": "contextual",
+          "reason": "Template fragility problem"
+        }
+      ]
+    },
+    "best-zonal-ocr-software": {
+      "new_links": [
+        {
+          "anchor_text": "invoices and purchase orders",
+          "target_slug": "best-purchase-order-ocr-software",
+          "paragraph": "P8",
+          "link_type": "contextual",
+          "reason": "PO document type in ABBYY capabilities"
+        }
+      ]
+    },
+    "ocr-invoice-extraction": {
+      "new_links": [
+        {
+          "anchor_text": "essential for three-way matching",
+          "target_slug": "best-three-way-matching-software",
+          "paragraph": "P20",
+          "link_type": "contextual",
+          "reason": "PO matching context"
+        },
+        {
+          "anchor_text": "line item tables",
+          "target_slug": "line-item-extraction-from-invoices",
+          "paragraph": "P27",
+          "link_type": "contextual",
+          "reason": "Line item table extraction challenge"
+        },
+        {
+          "anchor_text": "distinguishing handwriting from printed text",
+          "target_slug": "best-handwriting-ocr-software",
+          "paragraph": "P45",
+          "link_type": "contextual",
+          "reason": "Handwriting OCR edge case"
+        },
+        {
+          "anchor_text": "complex line item tables",
+          "target_slug": "best-table-extraction-software",
+          "paragraph": "P49",
+          "link_type": "contextual",
+          "reason": "Table extraction evaluation factor"
+        }
+      ]
+    },
+    "ocr-automation": {
+      "new_links": [
+        {
+          "anchor_text": "process expense receipts",
+          "target_slug": "receipt-processing",
+          "paragraph": "P42",
+          "link_type": "contextual",
+          "reason": "Receipt processing use case; boost low-usage"
+        },
+        {
+          "anchor_text": "static PDF contracts",
+          "target_slug": "legal-document-data-extraction",
+          "paragraph": "P43",
+          "link_type": "contextual",
+          "reason": "Legal document extraction use case"
+        },
+        {
+          "anchor_text": "insurance documents",
+          "target_slug": "best-insurance-claims-processing-software",
+          "paragraph": "P44",
+          "link_type": "contextual",
+          "reason": "Healthcare OCR use case"
+        },
+        {
+          "anchor_text": "check processing",
+          "target_slug": "best-check-ocr-software",
+          "paragraph": "P45",
+          "link_type": "contextual",
+          "reason": "Banking OCR use case; boost orphan"
+        }
+      ]
+    },
+    "ocr-contract-management": {
+      "new_links": [
+        {
+          "anchor_text": "produce lower OCR accuracy",
+          "target_slug": "ocr-accuracy",
+          "paragraph": "P36",
+          "link_type": "contextual",
+          "reason": "Accuracy degradation on legacy scans"
+        },
+        {
+          "anchor_text": "an auditor asks for all contracts",
+          "target_slug": "best-ocr-for-audit-teams",
+          "paragraph": "P28",
+          "link_type": "contextual",
+          "reason": "Audit use case for structured contract data"
+        }
+      ]
+    },
+    "invoice-ocr-automation": {
+      "new_links": [
+        {
+          "anchor_text": "duplicate detection",
+          "target_slug": "invoice-validation",
+          "paragraph": "P65",
+          "link_type": "contextual",
+          "reason": "Duplicate invoice risk mitigation"
+        },
+        {
+          "anchor_text": "line items spanning multiple pages",
+          "target_slug": "best-table-extraction-software",
+          "paragraph": "P64",
+          "link_type": "contextual",
+          "reason": "Multi-page table extraction challenge"
+        },
+        {
+          "anchor_text": "saves hours during audits",
+          "target_slug": "best-ocr-for-audit-teams",
+          "paragraph": "P31",
+          "link_type": "contextual",
+          "reason": "Audit efficiency benefit of structured data"
+        }
+      ]
+    },
+    "contract-extraction": {
+      "new_links": [
+        {
+          "anchor_text": "connected enterprise systems",
+          "target_slug": "how-to-import-extracted-data-into-erp",
+          "paragraph": "P23",
+          "link_type": "contextual",
+          "reason": "ERP integration for extracted contract data"
+        },
+        {
+          "anchor_text": "OCR accuracy on faded scans",
+          "target_slug": "ocr-accuracy",
+          "paragraph": "P43",
+          "link_type": "contextual",
+          "reason": "Accuracy benchmarks for degraded documents"
+        }
+      ]
+    },
+    "ocr-for-receipt-recognition": {
+      "new_links": [
+        {
+          "anchor_text": "zonal OCR for invoices",
+          "target_slug": "best-zonal-ocr-software",
+          "paragraph": "P55",
+          "link_type": "contextual",
+          "reason": "Contrast with template-based approach"
+        },
+        {
+          "anchor_text": "digital receipts",
+          "target_slug": "receipt-data-extraction",
+          "paragraph": "P9",
+          "link_type": "contextual",
+          "reason": "Digital receipt capture method"
+        },
+        {
+          "anchor_text": "flow directly into accounting software",
+          "target_slug": "how-to-import-extracted-data-into-erp",
+          "paragraph": "P40",
+          "link_type": "contextual",
+          "reason": "Integration path for extracted receipt data"
+        }
+      ]
+    },
+    "excel-data-extraction": {
+      "new_links": [
+        {
+          "anchor_text": "freight forwarder, customs broker, and carrier",
+          "target_slug": "best-bill-of-lading-ocr-software",
+          "paragraph": "P50",
+          "link_type": "contextual",
+          "reason": "Shipping document context in trade data extraction"
+        }
+      ]
+    },
+    "data-entry-error-rates": {
+      "new_links": [
+        {
+          "anchor_text": "Handwritten documents",
+          "target_slug": "best-handwriting-ocr-software",
+          "paragraph": "P15",
+          "link_type": "contextual",
+          "reason": "Document quality as error driver"
+        }
+      ]
+    },
+    "best-ocr-for-microsoft-dynamics": {
+      "new_links": [
+        {
+          "anchor_text": "Packing slips",
+          "target_slug": "best-delivery-note-ocr-software",
+          "paragraph": "P11",
+          "link_type": "contextual",
+          "reason": "Delivery document type in D365 workflow"
+        }
+      ]
+    },
+    "key-value-pair-extraction": {
+      "new_links": [
+        {
+          "anchor_text": "Shipping documents",
+          "target_slug": "best-bill-of-lading-ocr-software",
+          "paragraph": "P11",
+          "link_type": "contextual",
+          "reason": "Shipping doc as key-value pair example"
+        },
+        {
+          "anchor_text": "Define bounding boxes on a template",
+          "target_slug": "best-zonal-ocr-software",
+          "paragraph": "P24",
+          "link_type": "contextual",
+          "reason": "Zonal OCR method description"
+        }
+      ]
+    },
+    "ocr-for-email": {
+      "new_links": [
+        {
+          "anchor_text": "invoices as PDF or image attachments",
+          "target_slug": "ai-to-extract-data-from-pdf",
+          "paragraph": "P8",
+          "link_type": "contextual",
+          "reason": "Attachment format in email OCR pipeline"
+        },
+        {
+          "anchor_text": "Expense receipts",
+          "target_slug": "receipt-processing",
+          "paragraph": "P11",
+          "link_type": "contextual",
+          "reason": "Receipt processing use case from email"
+        }
+      ]
+    },
+    "ocr-table-to-excel": {
+      "new_links": []
+    },
+    "best-timesheet-ocr-software": {
+      "new_links": [
+        {
+          "anchor_text": "keying hours from paper timesheets",
+          "target_slug": "how-to-extract-data-from-timesheets",
+          "paragraph": "P1",
+          "link_type": "contextual",
+          "reason": "Orphan target, directly relevant to timesheet data extraction"
+        },
+        {
+          "anchor_text": "zone-based parsing",
+          "target_slug": "best-zonal-ocr-software",
+          "paragraph": "P30",
+          "link_type": "contextual",
+          "reason": "Describes Docparser's approach, links to zonal OCR comparison"
+        },
+        {
+          "anchor_text": "Workers filling timesheets by hand",
+          "target_slug": "extract-data-from-handwritten-documents",
+          "paragraph": "P5",
+          "link_type": "contextual",
+          "reason": "Handwriting challenge in field-based industries"
+        }
+      ]
+    },
+    "best-utility-bill-ocr-software": {
+      "new_links": [
+        {
+          "anchor_text": "tiered rate tables",
+          "target_slug": "utility-bill-processing-automation",
+          "paragraph": "P5",
+          "link_type": "contextual",
+          "reason": "Orphan target, utility-specific extraction complexity"
+        },
+        {
+          "anchor_text": "visual rule builder",
+          "target_slug": "best-zonal-ocr-software",
+          "paragraph": "P17",
+          "link_type": "contextual",
+          "reason": "Docparser's zone-based approach for consistent formats"
+        },
+        {
+          "anchor_text": "multiple service addresses",
+          "target_slug": "utility-invoice-management",
+          "paragraph": "P35",
+          "link_type": "contextual",
+          "reason": "Orphan target, consolidated billing challenge"
+        }
+      ]
+    },
+    "ocr-for-aerospace-parts-testing": {
+      "new_links": [
+        {
+          "anchor_text": "Document classification happens first",
+          "target_slug": "automatic-document-classification",
+          "paragraph": "P16",
+          "link_type": "contextual",
+          "reason": "Document sorting step in the extraction pipeline"
+        },
+        {
+          "anchor_text": "Handwriting support is essential",
+          "target_slug": "best-handwriting-ocr-software",
+          "paragraph": "P20",
+          "link_type": "contextual",
+          "reason": "Handwritten annotations on aerospace parts docs"
+        }
+      ]
+    },
+    "best-receipt-ocr-software": {
+      "new_links": [
+        {
+          "anchor_text": "approach to receipt extraction",
+          "target_slug": "receipt-data-extraction",
+          "paragraph": "P4",
+          "link_type": "contextual",
+          "reason": "Only 1 existing link to this target"
+        },
+        {
+          "anchor_text": "Line-item extraction is the dividing line",
+          "target_slug": "line-item-extraction-from-invoices",
+          "paragraph": "P23",
+          "link_type": "contextual",
+          "reason": "Line-item concept applies across document types"
+        }
+      ]
+    },
+    "mailparser-alternative": {
+      "new_links": [
+        {
+          "anchor_text": "PDF and image attachment extraction",
+          "target_slug": "ai-to-extract-data-from-pdf",
+          "paragraph": "P5",
+          "link_type": "contextual",
+          "reason": "Attachment extraction as Mailparser pain point"
+        },
+        {
+          "anchor_text": "Rule-based extraction",
+          "target_slug": "best-zonal-ocr-software",
+          "paragraph": "P24",
+          "link_type": "contextual",
+          "reason": "Docparser's zone-based approach described"
+        },
+        {
+          "anchor_text": "Read Gmail, parse content",
+          "target_slug": "best-gmail-to-spreadsheet-tools",
+          "paragraph": "P26",
+          "link_type": "contextual",
+          "reason": "Orphan target, Apps Script approach for Gmail-to-Sheets"
+        }
+      ]
+    },
+    "best-power-automate-ocr-tools": {
+      "new_links": [
+        {
+          "anchor_text": "accuracy on diverse formats",
+          "target_slug": "how-to-extract-data-from-invoices-with-hundreds-of-different-vendor-formats",
+          "paragraph": "P9",
+          "link_type": "contextual",
+          "reason": "Format diversity driving AI Builder frustration"
+        },
+        {
+          "anchor_text": "Table and form extraction",
+          "target_slug": "best-table-extraction-software",
+          "paragraph": "P20",
+          "link_type": "contextual",
+          "reason": "AWS Textract table/form extraction capabilities"
+        }
+      ]
+    },
+    "document-processing-multi-location-operations": {
+      "new_links": [
+        {
+          "anchor_text": "reconcile invoices from every location",
+          "target_slug": "invoice-validation",
+          "paragraph": "P5",
+          "link_type": "contextual",
+          "reason": "AP reconciliation across multi-site operations"
+        }
+      ]
+    },
+    "how-to-extract-data-from-google-drive-to-excel": {
+      "new_links": [
+        {
+          "anchor_text": "format variation across vendors",
+          "target_slug": "how-to-extract-data-from-invoices-with-hundreds-of-different-vendor-formats",
+          "paragraph": "P10",
+          "link_type": "contextual",
+          "reason": "Multi-vendor invoice handling from Drive"
+        },
+        {
+          "anchor_text": "makes PO matching much easier",
+          "target_slug": "best-purchase-order-ocr-software",
+          "paragraph": "P15",
+          "link_type": "contextual",
+          "reason": "PO extraction feeding downstream matching"
+        },
+        {
+          "anchor_text": "Google Drive itself has basic OCR",
+          "target_slug": "best-google-drive-ocr-tools",
+          "paragraph": "P19",
+          "link_type": "contextual",
+          "reason": "Orphan target, directly relevant Drive OCR comparison"
+        }
+      ]
+    },
+    "how-to-extract-email-attachments-to-google-sheets": {
+      "new_links": [
+        {
+          "anchor_text": "AI Builder's document model",
+          "target_slug": "best-power-automate-ocr-tools",
+          "paragraph": "P20",
+          "link_type": "contextual",
+          "reason": "Orphan target, Power Automate OCR deep-dive"
+        },
+        {
+          "anchor_text": "low-res scans still cause errors",
+          "target_slug": "ocr-accuracy",
+          "paragraph": "P31",
+          "link_type": "contextual",
+          "reason": "Scan quality affecting extraction accuracy"
+        },
+        {
+          "anchor_text": "Complex multi-page contracts",
+          "target_slug": "contract-extraction",
+          "paragraph": "P32",
+          "link_type": "contextual",
+          "reason": "Orphan target, contracts as hard extraction case"
+        }
+      ]
+    },
+    "best-payroll-ocr-software": {
+      "new_links": [
+        {
+          "anchor_text": "handwritten pay stubs",
+          "target_slug": "best-handwriting-ocr-software",
+          "paragraph": "P1",
+          "link_type": "contextual",
+          "reason": "Handwriting challenge in payroll documents"
+        },
+        {
+          "anchor_text": "Confidence scores flag low-certainty",
+          "target_slug": "ocr-accuracy",
+          "paragraph": "P5",
+          "link_type": "contextual",
+          "reason": "Confidence scoring as accuracy indicator"
+        },
+        {
+          "anchor_text": "automatically identifies document types",
+          "target_slug": "automatic-document-classification",
+          "paragraph": "P16",
+          "link_type": "contextual",
+          "reason": "ABBYY classification engine for payroll docs"
+        }
+      ]
+    },
+    "ocr-for-marketing-agencies": {
+      "new_links": [
+        {
+          "anchor_text": "matching each vendor's line items",
+          "target_slug": "invoice-validation",
+          "paragraph": "P10",
+          "link_type": "contextual",
+          "reason": "Reconciliation = validation concept"
+        },
+        {
+          "anchor_text": "vendor-side client name variations",
+          "target_slug": "how-to-fuzzy-match-vendor-names",
+          "paragraph": "P5",
+          "link_type": "contextual",
+          "reason": "Name normalization is fuzzy matching"
+        }
+      ]
+    },
+    "best-purchase-order-ocr-software": {
+      "new_links": [
+        {
+          "anchor_text": "manually re-entering purchase order data",
+          "target_slug": "ai-data-entry",
+          "paragraph": "P1",
+          "link_type": "contextual",
+          "reason": "Manual PO data entry pain point"
+        },
+        {
+          "anchor_text": "tight native integration",
+          "target_slug": "how-to-import-extracted-data-into-erp",
+          "paragraph": "P10",
+          "link_type": "contextual",
+          "reason": "ERP integration for Rossum context"
+        }
+      ]
+    },
+    "why-hiring-more-ap-staff-doesnt-fix-your-document-problem": {
+      "new_links": [
+        {
+          "anchor_text": "matching line items to purchase orders",
+          "target_slug": "invoice-validation",
+          "paragraph": "P3",
+          "link_type": "contextual",
+          "reason": "PO matching as core AP automation step"
+        },
+        {
+          "anchor_text": "data entry makes accuracy problems worse",
+          "target_slug": "ai-data-entry",
+          "paragraph": "P6",
+          "link_type": "contextual",
+          "reason": "Human error argument for automation"
+        }
+      ]
+    },
+    "how-to-process-scanned-faxed-and-mobile-photo-invoices-accurately": {
+      "new_links": [
+        {
+          "anchor_text": "limited or no handwriting support",
+          "target_slug": "best-handwriting-ocr-software",
+          "paragraph": "P8",
+          "link_type": "contextual",
+          "reason": "Handwriting gap in most OCR tools"
+        },
+        {
+          "anchor_text": "Zone-based extraction tools",
+          "target_slug": "best-zonal-ocr-software",
+          "paragraph": "P7",
+          "link_type": "contextual",
+          "reason": "Zonal OCR failure on skewed scans"
+        },
+        {
+          "anchor_text": "Scanned documents often have shadows",
+          "target_slug": "extract-text-from-scanned-pdf",
+          "paragraph": "P6",
+          "link_type": "contextual",
+          "reason": "Scan quality degradation issues"
+        }
+      ]
+    },
+    "ocr-for-grocery-invoices": {
+      "new_links": [
+        {
+          "anchor_text": "quantities ordered versus received",
+          "target_slug": "invoice-validation",
+          "paragraph": "P14",
+          "link_type": "contextual",
+          "reason": "Line-item reconciliation in receiving"
+        },
+        {
+          "anchor_text": "handwritten delivery tickets",
+          "target_slug": "extract-data-from-handwritten-documents",
+          "paragraph": "P4",
+          "link_type": "contextual",
+          "reason": "Field vendor handwriting challenge"
+        },
+        {
+          "anchor_text": "land in your ERP",
+          "target_slug": "how-to-import-extracted-data-into-erp",
+          "paragraph": "P22",
+          "link_type": "contextual",
+          "reason": "Integration closing the extraction loop"
+        }
+      ]
+    },
+    "the-150-page-problem-when-your-ocr-tool-hits-its-ceiling": {
+      "new_links": [
+        {
+          "anchor_text": "healthcare billing company handling Medicaid claims",
+          "target_slug": "data-extraction-in-healthcare",
+          "paragraph": "P24",
+          "link_type": "contextual",
+          "reason": "Orphan target, Relay case study context"
+        },
+        {
+          "anchor_text": "telecom expense management firm",
+          "target_slug": "ocr-for-telecom-billing",
+          "paragraph": "P25",
+          "link_type": "contextual",
+          "reason": "Orphan target, telecom case study context"
+        }
+      ]
+    },
+    "ocr-for-telecom-billing": {
+      "new_links": [
+        {
+          "anchor_text": "format inconsistency across carriers",
+          "target_slug": "how-to-extract-data-from-invoices-with-hundreds-of-different-vendor-formats",
+          "paragraph": "P4",
+          "link_type": "contextual",
+          "reason": "Carrier format variety = vendor format variety"
+        }
+      ]
+    },
+    "best-three-way-matching-software-42d6c": {
+      "new_links": [
+        {
+          "anchor_text": "line-item data from the invoice",
+          "target_slug": "invoice-data-extraction",
+          "paragraph": "P4",
+          "link_type": "contextual",
+          "reason": "Extraction as prerequisite for matching"
+        },
+        {
+          "anchor_text": "manual invoice-to-PO matching",
+          "target_slug": "reduce-manual-invoice-processing",
+          "paragraph": "P9",
+          "link_type": "contextual",
+          "reason": "Orphan target, BSGTX replacement story"
+        }
+      ]
+    },
+    "best-gmail-to-spreadsheet-tools": {
+      "new_links": [
+        {
+          "anchor_text": "data from PDF and image attachments",
+          "target_slug": "ai-to-extract-data-from-pdf",
+          "paragraph": "P4",
+          "link_type": "contextual",
+          "reason": "PDF extraction from Gmail pipeline"
+        },
+        {
+          "anchor_text": "Power Automate has a Gmail connector",
+          "target_slug": "best-power-automate-ocr-tools",
+          "paragraph": "P19",
+          "link_type": "contextual",
+          "reason": "Orphan target, cross-ecosystem bridge"
+        },
+        {
+          "anchor_text": "extracts vendor name, invoice number",
+          "target_slug": "invoice-data-extraction",
+          "paragraph": "P26",
+          "link_type": "contextual",
+          "reason": "Invoice field extraction in daily flow"
+        }
+      ]
+    },
+    "best-k1-extraction-software-46129": {
+      "new_links": [
+        {
+          "anchor_text": "auto-classification by entity",
+          "target_slug": "automatic-document-classification",
+          "paragraph": "P5",
+          "link_type": "contextual",
+          "reason": "Entity-level document sorting at scale"
+        },
+        {
+          "anchor_text": "clean K-1 PDF to ChatGPT",
+          "target_slug": "lido-vs-chatgpt-document-processing",
+          "paragraph": "P23",
+          "link_type": "contextual",
+          "reason": "Orphan target, ChatGPT comparison context"
+        },
+        {
+          "anchor_text": "SurePrep addresses that with TaxCaddy",
+          "target_slug": "sureprep-alternative",
+          "paragraph": "P11",
+          "link_type": "contextual",
+          "reason": "Orphan target, SurePrep deep-dive"
+        }
+      ]
+    },
+    "wine-auction-consignment-digitization": {
+      "new_links": [
+        {
+          "anchor_text": "identify what kind of document",
+          "target_slug": "automatic-document-classification",
+          "paragraph": "P13",
+          "link_type": "contextual",
+          "reason": "Multi-format ingestion requires doc type ID"
+        },
+        {
+          "anchor_text": "consignment list into a chatbot",
+          "target_slug": "lido-vs-chatgpt-document-processing",
+          "paragraph": "P12",
+          "link_type": "contextual",
+          "reason": "Orphan target, chatbot inconsistency context"
+        }
+      ]
+    },
+    "best-sharepoint-document-processing-software": {
+      "new_links": [
+        {
+          "anchor_text": "AI Builder extracts fields",
+          "target_slug": "best-power-automate-ocr-tools",
+          "paragraph": "P9",
+          "link_type": "contextual",
+          "reason": "Low target, Power Automate OCR deep-dive"
+        },
+        {
+          "anchor_text": "routes them automatically before extraction",
+          "target_slug": "automatic-document-classification",
+          "paragraph": "P22",
+          "link_type": "contextual",
+          "reason": "Hyland classification-first approach"
+        }
+      ]
+    },
+    "ocr-for-government-contractors": {
+      "new_links": [
+        {
+          "anchor_text": "using ChatGPT to manually extract",
+          "target_slug": "lido-vs-chatgpt-document-processing",
+          "paragraph": "P3",
+          "link_type": "contextual",
+          "reason": "BlackBox Safety ChatGPT failure story"
+        },
+        {
+          "anchor_text": "look up the original PO",
+          "target_slug": "invoice-validation",
+          "paragraph": "P14",
+          "link_type": "contextual",
+          "reason": "Split shipment PO matching challenge"
+        },
+        {
+          "anchor_text": "manual data entry errors",
+          "target_slug": "ai-data-entry",
+          "paragraph": "P22",
+          "link_type": "contextual",
+          "reason": "DCAA compliance risk from manual entry"
+        }
+      ]
+    },
+    "dext-alternative": {
+      "new_links": [
+        {
+          "anchor_text": "line-item tables that span pages",
+          "target_slug": "best-table-extraction-software",
+          "paragraph": "P5",
+          "link_type": "contextual",
+          "reason": "Dext accuracy gap on complex invoices"
+        }
+      ]
+    },
+    "how-to-convert-ally-bank-statement-to-excel": {
+      "new_links": [
+        {
+          "anchor_text": "pasting into Excel produces messy formatting",
+          "target_slug": "copy-data-from-pdf-to-excel",
+          "paragraph": "P9",
+          "link_type": "contextual",
+          "reason": "Orphan target, copy-paste pain point"
+        }
+      ]
+    },
+    "how-to-convert-td-bank-statement-to-excel": {
+      "new_links": [
+        {
+          "anchor_text": "Typing transactions into Excel",
+          "target_slug": "ai-data-entry",
+          "paragraph": "P11",
+          "link_type": "contextual",
+          "reason": "Manual data entry alternative"
+        }
+      ]
+    },
+    "how-to-convert-pnc-bank-statement-to-excel": {
+      "new_links": [
+        {
+          "anchor_text": "separate transaction tables for each",
+          "target_slug": "best-bank-statement-parser",
+          "paragraph": "P7",
+          "link_type": "contextual",
+          "reason": "Orphan target, PNC Virtual Wallet complexity"
+        }
+      ]
+    },
+    "how-to-convert-capital-one-statement-to-excel": {
+      "new_links": [
+        {
+          "anchor_text": "payment allocation tables and interest calculations",
+          "target_slug": "best-bank-statement-parser",
+          "paragraph": "P7",
+          "link_type": "contextual",
+          "reason": "Orphan target, credit card statement complexity"
+        }
+      ]
+    },
+    "how-to-convert-us-bank-statement-to-excel": {
+      "new_links": [
+        {
+          "anchor_text": "multiple accounts on a single statement",
+          "target_slug": "bank-statement-extraction",
+          "paragraph": "P7",
+          "link_type": "contextual",
+          "reason": "Multi-account statement parsing challenge"
+        }
+      ]
+    },
+    "how-to-convert-citibank-statement-to-excel": {
+      "new_links": [
+        {
+          "anchor_text": "copying and pasting into Excel",
+          "target_slug": "copy-data-from-pdf-to-excel",
+          "paragraph": "P9",
+          "link_type": "contextual",
+          "reason": "Orphan target, copy-paste pain point"
+        }
+      ]
+    },
+    "how-to-convert-wells-fargo-statement-to-excel": {
+      "new_links": [
+        {
+          "anchor_text": "daily balance summary table",
+          "target_slug": "extract-table-from-pdf",
+          "paragraph": "P7",
+          "link_type": "contextual",
+          "reason": "Orphan target, table extraction challenge"
+        }
+      ]
+    },
+    "how-to-convert-bank-of-america-statement-to-excel": {
+      "new_links": [
+        {
+          "anchor_text": "check images",
+          "target_slug": "best-check-ocr-software",
+          "paragraph": "P7",
+          "link_type": "contextual",
+          "reason": "BofA two-column check layout"
+        }
+      ]
+    },
+    "how-to-convert-chime-bank-statement-to-excel": {
+      "new_links": [
+        {
+          "anchor_text": "transaction data in spreadsheet format",
+          "target_slug": "extract-data-from-pdf-to-excel",
+          "paragraph": "P1",
+          "link_type": "contextual",
+          "reason": "Orphan target, core use case"
+        }
+      ]
+    },
+    "how-to-convert-chase-bank-statement-to-excel": {
+      "new_links": [
+        {
+          "anchor_text": "deposits and withdrawals in separate sections",
+          "target_slug": "best-bank-statement-parser",
+          "paragraph": "P7",
+          "link_type": "contextual",
+          "reason": "Orphan target, Chase-specific parsing challenge"
+        }
+      ]
+    },
+    "why-your-approval-process-is-really-an-accuracy-problem": {
+      "new_links": [
+        {
+          "anchor_text": "migrated from Docparser to Nanonets",
+          "target_slug": "best-nanonets-alternatives",
+          "paragraph": "P9",
+          "link_type": "contextual",
+          "reason": "Orphan target, migration context"
+        },
+        {
+          "anchor_text": "goes through manual review",
+          "target_slug": "reduce-manual-invoice-processing",
+          "paragraph": "P6",
+          "link_type": "contextual",
+          "reason": "Orphan target, manual review bottleneck"
+        }
+      ]
+    },
+    "lido-api-workflow-automation-integration": {
+      "new_links": [
+        {
+          "anchor_text": "document processing in Power Automate",
+          "target_slug": "best-power-automate-ocr-tools",
+          "paragraph": "P12",
+          "link_type": "contextual",
+          "reason": "Orphan target, AI Builder comparison"
+        },
+        {
+          "anchor_text": "inconsistent vendor layouts",
+          "target_slug": "how-to-extract-data-from-invoices-with-hundreds-of-different-vendor-formats",
+          "paragraph": "P3",
+          "link_type": "contextual",
+          "reason": "Format variety pain point"
+        }
+      ]
+    },
+    "best-scanned-pdf-to-excel-converter": {
+      "new_links": [
+        {
+          "anchor_text": "text exists only as an image",
+          "target_slug": "extract-text-from-pdf-image",
+          "paragraph": "P1",
+          "link_type": "contextual",
+          "reason": "Orphan target, exact use case"
+        },
+        {
+          "anchor_text": "manually define extraction areas",
+          "target_slug": "best-zonal-ocr-software",
+          "paragraph": "P13",
+          "link_type": "contextual",
+          "reason": "Orphan target, Able2Extract zonal approach"
+        },
+        {
+          "anchor_text": "automating scanned PDF extraction",
+          "target_slug": "ocr-automation",
+          "paragraph": "P15",
+          "link_type": "contextual",
+          "reason": "Orphan target, automation pipeline context"
+        }
+      ]
+    },
+    "best-expense-report-software": {
+      "new_links": [
+        {
+          "anchor_text": "extract data from receipts",
+          "target_slug": "receipt-data-extraction",
+          "paragraph": "P1",
+          "link_type": "contextual",
+          "reason": "Orphan target, receipt extraction intro"
+        },
+        {
+          "anchor_text": "photographed and handwritten receipts",
+          "target_slug": "extract-data-from-handwritten-documents",
+          "paragraph": "P4",
+          "link_type": "contextual",
+          "reason": "Handwriting challenge for expense docs"
+        },
+        {
+          "anchor_text": "Receipt capture optimized for accountants",
+          "target_slug": "receipt-capturing",
+          "paragraph": "P25",
+          "link_type": "contextual",
+          "reason": "Orphan target, Dext section"
+        }
+      ]
+    },
+    "best-ocr-software-for-pdf": {
+      "new_links": [
+        {
+          "anchor_text": "invoice line items in a spreadsheet",
+          "target_slug": "invoice-line-item",
+          "paragraph": "P1",
+          "link_type": "contextual",
+          "reason": "Orphan target, line item extraction"
+        },
+        {
+          "anchor_text": "Parsing, structuring, validating",
+          "target_slug": "data-parsing",
+          "paragraph": "P26",
+          "link_type": "contextual",
+          "reason": "Orphan target, raw text vs structured data"
+        },
+        {
+          "anchor_text": "form data from documents",
+          "target_slug": "extract-data-from-pdf-form",
+          "paragraph": "P19",
+          "link_type": "contextual",
+          "reason": "Orphan target, Textract form extraction"
+        }
+      ]
+    },
+    "ocr-for-real-estate": {
+      "new_links": [
+        {
+          "anchor_text": "rent rolls",
+          "target_slug": "how-to-extract-data-from-rent-rolls",
+          "paragraph": "P19",
+          "link_type": "contextual",
+          "reason": "Orphan target, specific CRE doc type"
+        },
+        {
+          "anchor_text": "raw documents into queryable databases",
+          "target_slug": "automated-data-extraction",
+          "paragraph": "P16",
+          "link_type": "contextual",
+          "reason": "Orphan target, pipeline architecture"
+        },
+        {
+          "anchor_text": "Lease abstraction",
+          "target_slug": "contract-extraction",
+          "paragraph": "P18",
+          "link_type": "contextual",
+          "reason": "Orphan target, CRE time-consuming process"
+        }
+      ]
+    },
+    "utility-bill-processing-automation": {
+      "new_links": [
+        {
+          "anchor_text": "build or maintain templates",
+          "target_slug": "the-problem-with-template-based-document-extraction-and-what-to-use-instead",
+          "paragraph": "P34",
+          "link_type": "contextual",
+          "reason": "Template maintenance warning"
+        },
+        {
+          "anchor_text": "Batch processing",
+          "target_slug": "how-to-batch-process-thousands-of-documents",
+          "paragraph": "P35",
+          "link_type": "contextual",
+          "reason": "Orphan target, volume processing"
+        }
+      ]
+    },
+    "how-to-convert-pdf-to-xml": {
+      "new_links": [
+        {
+          "anchor_text": "Data extraction reads the PDF",
+          "target_slug": "extract-information-from-pdf",
+          "paragraph": "P6",
+          "link_type": "contextual",
+          "reason": "Orphan target, semantic extraction"
+        },
+        {
+          "anchor_text": "table structures in PDFs",
+          "target_slug": "extract-table-from-pdf",
+          "paragraph": "P20",
+          "link_type": "contextual",
+          "reason": "Orphan target, pdfplumber table detection"
+        }
+      ]
+    },
+    "zapier-ocr-integration": {
+      "new_links": [
+        {
+          "anchor_text": "zone-based templates",
+          "target_slug": "best-zonal-ocr-software",
+          "paragraph": "P28",
+          "link_type": "contextual",
+          "reason": "Orphan target, Parseur/Docparser approach"
+        },
+        {
+          "anchor_text": "Nanonets trains a custom ML model",
+          "target_slug": "best-nanonets-alternatives",
+          "paragraph": "P29",
+          "link_type": "contextual",
+          "reason": "Orphan target, Nanonets named in anchor"
+        }
+      ]
+    },
+    "best-ocr-for-sap": {
+      "new_links": [
+        {
+          "anchor_text": "Delivery notes and packing lists",
+          "target_slug": "best-delivery-note-ocr-software",
+          "paragraph": "P14",
+          "link_type": "contextual",
+          "reason": "Orphan target, SAP MM document type"
+        },
+        {
+          "anchor_text": "fuzzy matching logic",
+          "target_slug": "how-to-fuzzy-match-vendor-names",
+          "paragraph": "P41",
+          "link_type": "contextual",
+          "reason": "Vendor master matching challenge"
+        },
+        {
+          "anchor_text": "certificates of origin",
+          "target_slug": "best-customs-document-processing-software",
+          "paragraph": "P16",
+          "link_type": "contextual",
+          "reason": "SAP GTS trade documents"
+        }
+      ]
+    },
+    "ocr-algorithms-explained": {
+      "new_links": [
+        {
+          "anchor_text": "structured forms with fixed fields",
+          "target_slug": "best-ocr-for-forms",
+          "paragraph": "P8",
+          "link_type": "contextual",
+          "reason": "Orphan target, template matching use case"
+        },
+        {
+          "anchor_text": "document AI models",
+          "target_slug": "best-document-ai-tools",
+          "paragraph": "P15",
+          "link_type": "contextual",
+          "reason": "Orphan target, transformer architecture"
+        }
+      ]
+    },
+    "best-ocr-api-comparison": {
+      "new_links": [
+        {
+          "anchor_text": "ABBYY FineReader",
+          "target_slug": "best-abbyy-alternatives",
+          "paragraph": "P6",
+          "link_type": "contextual",
+          "reason": "Orphan target, ABBYY named in anchor"
+        },
+        {
+          "anchor_text": "form key-value pairs",
+          "target_slug": "best-ocr-for-forms",
+          "paragraph": "P4",
+          "link_type": "contextual",
+          "reason": "Orphan target, form extraction capability"
+        }
+      ]
+    },
+    "best-pdf-data-extractor": {
+      "new_links": [
+        {
+          "anchor_text": "readable text from a PDF",
+          "target_slug": "extract-text-from-pdf",
+          "paragraph": "P8",
+          "link_type": "contextual",
+          "reason": "Orphan target, text extraction type"
+        },
+        {
+          "anchor_text": "fine-grained control over PDF text",
+          "target_slug": "pdf-parsing-techniques",
+          "paragraph": "P15",
+          "link_type": "contextual",
+          "reason": "Orphan target, pdfplumber parsing"
+        }
+      ]
+    },
+    "resume-ocr": {
+      "new_links": [
+        {
+          "anchor_text": "converting a resume document",
+          "target_slug": "resume-information-extraction",
+          "paragraph": "P4",
+          "link_type": "contextual",
+          "reason": "Orphan target, exact use case"
+        },
+        {
+          "anchor_text": "PDF conversion artifacts",
+          "target_slug": "pdf-parsing-techniques",
+          "paragraph": "P31",
+          "link_type": "contextual",
+          "reason": "Orphan target, parsing challenge"
+        }
+      ]
+    },
+    "best-ocr-for-forms": {
+      "new_links": [
+        {
+          "anchor_text": "Financial forms like loan applications",
+          "target_slug": "financial-data-extraction",
+          "paragraph": "P13",
+          "link_type": "contextual",
+          "reason": "Orphan target, financial form types"
+        },
+        {
+          "anchor_text": "table and grid extraction",
+          "target_slug": "extract-table-from-pdf",
+          "paragraph": "P18",
+          "link_type": "contextual",
+          "reason": "Orphan target, form table structure"
+        }
+      ]
+    },
+    "how-to-organize-accounts-payable-invoices": {
+      "new_links": [
+        {
+          "anchor_text": "organize invoices",
+          "target_slug": "what-is-invoice-management",
+          "paragraph": "P2",
+          "link_type": "contextual",
+          "reason": "Orphan target, invoice management concept"
+        },
+        {
+          "anchor_text": "automatically process new attachments",
+          "target_slug": "email-data-extraction",
+          "paragraph": "P34",
+          "link_type": "contextual",
+          "reason": "Orphan target, email automation step"
+        }
+      ]
+    },
+    "scan-invoices-into-quickbooks": {
+      "new_links": [
+        {
+          "anchor_text": "the most expensive method per invoice",
+          "target_slug": "the-true-cost-of-manual-invoice-processing",
+          "paragraph": "P12",
+          "link_type": "contextual",
+          "reason": "Cost of manual entry"
+        },
+        {
+          "anchor_text": "AI extraction to Excel",
+          "target_slug": "extract-data-from-pdf-to-excel",
+          "paragraph": "P44",
+          "link_type": "contextual",
+          "reason": "Method 5 workflow step"
+        }
+      ]
+    },
+    "what-is-intelligent-ocr": {
+      "new_links": [
+        {
+          "anchor_text": "your database, ERP, or spreadsheet",
+          "target_slug": "how-to-import-extracted-data-into-erp",
+          "paragraph": "P7",
+          "link_type": "contextual",
+          "reason": "Structured output destinations"
+        },
+        {
+          "anchor_text": "Making scanned PDFs searchable",
+          "target_slug": "extract-text-from-scanned-pdf",
+          "paragraph": "P28",
+          "link_type": "contextual",
+          "reason": "Traditional OCR use case"
+        }
+      ]
+    },
+    "ocr-for-mortgage-processing": {
+      "new_links": [
+        {
+          "anchor_text": "1099s for self-employed borrowers",
+          "target_slug": "how-to-automate-1099-processing",
+          "paragraph": "P10",
+          "link_type": "contextual",
+          "reason": "Orphan target, income doc type"
+        },
+        {
+          "anchor_text": "OCR automation",
+          "target_slug": "ocr-automation",
+          "paragraph": "P34",
+          "link_type": "contextual",
+          "reason": "Processor throughput gain"
+        }
+      ]
+    },
+    "what-is-zonal-ocr": {
+      "new_links": [
+        {
+          "anchor_text": "Machine-printed checks",
+          "target_slug": "best-check-ocr-software",
+          "paragraph": "P17",
+          "link_type": "contextual",
+          "reason": "MICR/check zonal use case"
+        },
+        {
+          "anchor_text": "ABBYY FlexiCapture",
+          "target_slug": "best-abbyy-alternatives",
+          "paragraph": "P7",
+          "link_type": "contextual",
+          "reason": "Named product"
+        }
+      ]
+    },
+    "best-ocr-for-netsuite": {
+      "new_links": [
+        {
+          "anchor_text": "accounts payable automation platform",
+          "target_slug": "what-is-accounts-payable-automation",
+          "paragraph": "P13",
+          "link_type": "contextual",
+          "reason": "Stampli description"
+        },
+        {
+          "anchor_text": "cut invoice processing time",
+          "target_slug": "reduce-manual-invoice-processing",
+          "paragraph": "P37",
+          "link_type": "contextual",
+          "reason": "ROI summary"
+        }
+      ]
+    },
+    "best-image-to-table-converter": {
+      "new_links": [
+        {
+          "anchor_text": "Amazon Textract",
+          "target_slug": "aws-textract-alternative",
+          "paragraph": "P25",
+          "link_type": "contextual",
+          "reason": "Named product"
+        },
+        {
+          "anchor_text": "table extraction from PDFs",
+          "target_slug": "best-pdf-parsing-tools",
+          "paragraph": "P58",
+          "link_type": "contextual",
+          "reason": "Orphan target, open-source approach"
+        }
+      ]
+    },
+    "ocr-accuracy": {
+      "new_links": [
+        {
+          "anchor_text": "fixed coordinate zones",
+          "target_slug": "what-is-zonal-ocr",
+          "paragraph": "P10",
+          "link_type": "contextual",
+          "reason": "Template-based OCR definition"
+        },
+        {
+          "anchor_text": "Cloud OCR APIs",
+          "target_slug": "best-ocr-api-comparison",
+          "paragraph": "P12",
+          "link_type": "contextual",
+          "reason": "Orphan target, API generation"
+        }
+      ]
+    },
+    "copy-table-from-pdf-to-excel": {
+      "new_links": [
+        {
+          "anchor_text": "understands PDF internals",
+          "target_slug": "pdf-parsing-techniques",
+          "paragraph": "P9",
+          "link_type": "contextual",
+          "reason": "Acrobat parsing context"
+        },
+        {
+          "anchor_text": "Select the table text",
+          "target_slug": "copy-text-from-pdf",
+          "paragraph": "P4",
+          "link_type": "contextual",
+          "reason": "Orphan target, copy-paste method"
+        }
+      ]
+    },
+    "ocr-for-finance": {
+      "new_links": [
+        {
+          "anchor_text": "Expense receipt OCR",
+          "target_slug": "ocr-for-receipt-recognition",
+          "paragraph": "P18",
+          "link_type": "contextual",
+          "reason": "Orphan target, consumer use case"
+        },
+        {
+          "anchor_text": "Financial statement analysis",
+          "target_slug": "extract-data-from-financial-statements",
+          "paragraph": "P17",
+          "link_type": "contextual",
+          "reason": "High-value finance use case"
+        }
+      ]
+    },
+    "what-is-invoice-parsing": {
+      "new_links": [
+        {
+          "anchor_text": "invoice OCR at scale",
+          "target_slug": "ocr-for-invoice-processing",
+          "paragraph": "P21",
+          "link_type": "contextual",
+          "reason": "Orphan target, AI vs template"
+        },
+        {
+          "anchor_text": "AI-powered parsing",
+          "target_slug": "data-parsing",
+          "paragraph": "P13",
+          "link_type": "contextual",
+          "reason": "Gen 3 parsing technology"
+        },
+        {
+          "anchor_text": "three-way matching against purchase orders",
+          "target_slug": "best-three-way-matching-software",
+          "paragraph": "P23",
+          "link_type": "contextual",
+          "reason": "PO matching fields"
+        }
+      ]
+    },
+    "what-is-pdf-parsing": {
+      "new_links": [
+        {
+          "anchor_text": "a library like pdfplumber",
+          "target_slug": "best-pdf-parsing-tools",
+          "paragraph": "P22",
+          "link_type": "contextual",
+          "reason": "PDF parsing library reference"
+        }
+      ]
+    },
+    "invoice-processing-cost-benchmarks": {
+      "new_links": [
+        {
+          "anchor_text": "data entry errors",
+          "target_slug": "data-entry-error-rates",
+          "paragraph": "P19",
+          "link_type": "contextual",
+          "reason": "Exception root cause"
+        },
+        {
+          "anchor_text": "Automated invoice processing",
+          "target_slug": "best-automated-invoice-processing-software",
+          "paragraph": "P8",
+          "link_type": "contextual",
+          "reason": "Orphan target, fully automated tier"
+        }
+      ]
+    },
+    "document-workflow-automation": {
+      "new_links": []
+    },
+    "invoice-automation": {
+      "new_links": [
+        {
+          "anchor_text": "process timesheets",
+          "target_slug": "best-timesheet-ocr-software",
+          "paragraph": "P72",
+          "link_type": "contextual",
+          "reason": "Orphan target, staffing firm context"
+        }
+      ]
+    },
+    "email-data-entry-automation": {
+      "new_links": [
+        {
+          "anchor_text": "Older email parsing tools",
+          "target_slug": "mailparser-alternative",
+          "paragraph": "P22",
+          "link_type": "contextual",
+          "reason": "Orphan target, pattern matching tools"
+        },
+        {
+          "anchor_text": "Receipts and expense reports",
+          "target_slug": "receipt-processing",
+          "paragraph": "P17",
+          "link_type": "contextual",
+          "reason": "Expense use case"
+        }
+      ]
+    },
+    "underwriting-workflow-automation": {
+      "new_links": [
+        {
+          "anchor_text": "handwritten endorsements",
+          "target_slug": "extract-data-from-handwritten-documents",
+          "paragraph": "P33",
+          "link_type": "contextual",
+          "reason": "Edge case for automation"
+        }
+      ]
+    },
+    "best-insurance-claims-processing-software": {
+      "new_links": [
+        {
+          "anchor_text": "handwritten incident report",
+          "target_slug": "extract-data-from-handwritten-documents",
+          "paragraph": "P6",
+          "link_type": "contextual",
+          "reason": "Adjuster data quality"
+        }
+      ]
+    },
+    "how-insurance-ocr-works": {
+      "new_links": [
+        {
+          "anchor_text": "mapping pixel coordinates",
+          "target_slug": "what-is-zonal-ocr",
+          "paragraph": "P3",
+          "link_type": "contextual",
+          "reason": "Template OCR contrast"
+        },
+        {
+          "anchor_text": "Batch OCR processing",
+          "target_slug": "how-to-batch-process-thousands-of-documents",
+          "paragraph": "P19",
+          "link_type": "contextual",
+          "reason": "Volume spike handling"
+        },
+        {
+          "anchor_text": "each carrier format",
+          "target_slug": "how-to-process-insurance-documents-multiple-payer-formats",
+          "paragraph": "P1",
+          "link_type": "contextual",
+          "reason": "Orphan target, format diversity"
+        }
+      ]
+    },
+    "document-automation-for-insurance": {
+      "new_links": [
+        {
+          "anchor_text": "map fixed zones on a page",
+          "target_slug": "what-is-zonal-ocr",
+          "paragraph": "P7",
+          "link_type": "contextual",
+          "reason": "Template vs AI contrast"
+        },
+        {
+          "anchor_text": "process insurance documents",
+          "target_slug": "best-document-processing-software-for-insurance-c49bb",
+          "paragraph": "P22",
+          "link_type": "contextual",
+          "reason": "Orphan target, carrier/broker context"
+        }
+      ]
+    },
+    "what-is-underwriting-automation": {
+      "new_links": [
+        {
+          "anchor_text": "audited financials",
+          "target_slug": "extract-data-from-financial-statements",
+          "paragraph": "P1",
+          "link_type": "contextual",
+          "reason": "Submission doc type"
+        },
+        {
+          "anchor_text": "data entry errors are random",
+          "target_slug": "data-entry-error-rates",
+          "paragraph": "P15",
+          "link_type": "contextual",
+          "reason": "Accuracy failure mode"
+        }
+      ]
+    },
+    "best-insurance-underwriting-software": {
+      "new_links": [
+        {
+          "anchor_text": "analyzing financial documents",
+          "target_slug": "how-to-extract-data-from-financial-statements",
+          "paragraph": "P31",
+          "link_type": "contextual",
+          "reason": "Ocrolus description, financial doc analysis"
+        },
+        {
+          "anchor_text": "retyping data from submission documents",
+          "target_slug": "eliminate-manual-data-entry-finance",
+          "paragraph": "P36",
+          "link_type": "contextual",
+          "reason": "Manual entry problem statement"
+        }
+      ]
+    },
+    "finance-workflow-automation": {
+      "new_links": [
+        {
+          "anchor_text": "Three-way matching between purchase orders",
+          "target_slug": "best-three-way-matching-software",
+          "paragraph": "P25",
+          "link_type": "contextual",
+          "reason": "PO/invoice/receipt matching workflow"
+        },
+        {
+          "anchor_text": "the fully loaded cost",
+          "target_slug": "the-true-cost-of-manual-invoice-processing",
+          "paragraph": "P6",
+          "link_type": "contextual",
+          "reason": "IFM cost benchmark reference"
+        },
+        {
+          "anchor_text": "basic OCR for invoices",
+          "target_slug": "best-ocr-software-for-invoice-processing",
+          "paragraph": "P42",
+          "link_type": "contextual",
+          "reason": "Orphan target, BILL weak extraction noted"
+        },
+        {
+          "anchor_text": "Receipt processing",
+          "target_slug": "receipt-processing",
+          "paragraph": "P10",
+          "link_type": "contextual",
+          "reason": "Expense receipt problem area"
+        }
+      ]
+    },
+    "document-automation-for-financial-services": {
+      "new_links": [
+        {
+          "anchor_text": "mortgage document processing",
+          "target_slug": "ocr-for-mortgage-processing",
+          "paragraph": "P41",
+          "link_type": "contextual",
+          "reason": "Ocrolus lending vertical mention"
+        }
+      ]
+    },
+    "best-sales-order-automation-software": {
+      "new_links": [
+        {
+          "anchor_text": "bills of lading",
+          "target_slug": "best-customs-document-processing-software",
+          "paragraph": "P7",
+          "link_type": "contextual",
+          "reason": "Shipping doc alongside sales orders"
+        },
+        {
+          "anchor_text": "AI extraction platform",
+          "target_slug": "best-data-extraction-tools",
+          "paragraph": "P10",
+          "link_type": "contextual",
+          "reason": "Rossum description, extraction tools"
+        }
+      ]
+    },
+    "build-document-processing-agent-claude-code-lido": {
+      "new_links": [
+        {
+          "anchor_text": "vendor names almost never match",
+          "target_slug": "how-to-fuzzy-match-vendor-names",
+          "paragraph": "P44",
+          "link_type": "contextual",
+          "reason": "Fuzzy matching vendor names use case"
+        }
+      ]
+    },
+    "what-is-mcp-model-context-protocol": {
+      "new_links": [
+        {
+          "anchor_text": "tax forms",
+          "target_slug": "best-tax-extraction-software",
+          "paragraph": "P21",
+          "link_type": "contextual",
+          "reason": "Document type in MCP ecosystem list"
+        }
+      ]
+    },
+    "best-mcp-servers-for-document-processing": {
+      "new_links": []
+    },
+    "how-to-extract-document-data-with-claude-using-lido-mcp": {
+      "new_links": [
+        {
+          "anchor_text": "tax forms like K-1s",
+          "target_slug": "best-tax-extraction-software",
+          "paragraph": "P20",
+          "link_type": "contextual",
+          "reason": "Multi-doc-type list"
+        }
+      ]
+    },
+    "best-tax-extraction-software": {
+      "new_links": [
+        {
+          "anchor_text": "1099 extraction models",
+          "target_slug": "how-to-automate-1099-processing",
+          "paragraph": "P19",
+          "link_type": "contextual",
+          "reason": "Azure prebuilt model mention"
+        },
+        {
+          "anchor_text": "Manual keying",
+          "target_slug": "eliminate-manual-data-entry-finance",
+          "paragraph": "P2",
+          "link_type": "contextual",
+          "reason": "Manual entry breaks at scale"
+        },
+        {
+          "anchor_text": "GruntWorx or SurePrep",
+          "target_slug": "gruntworx-alternative",
+          "paragraph": "P25",
+          "link_type": "contextual",
+          "reason": "Orphan target, named products"
+        }
+      ]
+    },
+    "eliminate-manual-data-entry-finance": {
+      "new_links": [
+        {
+          "anchor_text": "error rates on manual entry",
+          "target_slug": "data-entry-error-rates",
+          "paragraph": "P4",
+          "link_type": "contextual",
+          "reason": "Human error rate context"
+        },
+        {
+          "anchor_text": "reconciling invoices against POs",
+          "target_slug": "best-three-way-matching-software",
+          "paragraph": "P12",
+          "link_type": "contextual",
+          "reason": "Three-way matching pain point"
+        },
+        {
+          "anchor_text": "Bank statement entry",
+          "target_slug": "ocr-in-banking",
+          "paragraph": "P11",
+          "link_type": "contextual",
+          "reason": "Orphan target, banking document volume"
+        }
+      ]
+    },
+    "best-erp-integration-tools-for-document-extraction": {
+      "new_links": [
+        {
+          "anchor_text": "older ERPs without modern APIs",
+          "target_slug": "how-to-import-extracted-data-into-erp",
+          "paragraph": "P19",
+          "link_type": "contextual",
+          "reason": "UiPath RPA context"
+        }
+      ]
+    },
+    "best-invoice-processing-software": {
+      "new_links": [
+        {
+          "anchor_text": "Supplier onboarding",
+          "target_slug": "automate-vendor-onboarding-documents",
+          "paragraph": "P16",
+          "link_type": "contextual",
+          "reason": "Tipalti W-9/W-8BEN collection"
+        },
+        {
+          "anchor_text": "dedicated extraction tools",
+          "target_slug": "best-document-extraction-software",
+          "paragraph": "P13",
+          "link_type": "contextual",
+          "reason": "BILL OCR comparison"
+        }
+      ]
+    },
+    "best-pdf-converter": {
+      "new_links": [
+        {
+          "anchor_text": "Table extraction to Excel",
+          "target_slug": "extract-table-from-pdf",
+          "paragraph": "P20",
+          "link_type": "contextual",
+          "reason": "Nitro PDF capability"
+        }
+      ]
+    },
+    "best-ocr-api": {
+      "new_links": [
+        {
+          "anchor_text": "key-value pairs in forms",
+          "target_slug": "best-ocr-for-forms",
+          "paragraph": "P13",
+          "link_type": "contextual",
+          "reason": "Textract forms feature"
+        },
+        {
+          "anchor_text": "Azure Form Recognizer",
+          "target_slug": "azure-document-intelligence-alternative",
+          "paragraph": "P17",
+          "link_type": "contextual",
+          "reason": "Product named (old name)"
+        }
+      ]
+    },
+    "best-document-extraction-software": {
+      "new_links": [
+        {
+          "anchor_text": "successor to FlexiCapture",
+          "target_slug": "best-abbyy-alternatives",
+          "paragraph": "P7",
+          "link_type": "contextual",
+          "reason": "ABBYY product lineage"
+        },
+        {
+          "anchor_text": "tax returns",
+          "target_slug": "best-tax-extraction-software",
+          "paragraph": "P16",
+          "link_type": "contextual",
+          "reason": "Docsumo doc types"
+        }
+      ]
+    },
+    "how-to-automate-lien-tracking-pi-firms": {
+      "new_links": []
+    },
+    "how-to-extract-data-from-medical-records-legal": {
+      "new_links": [
+        {
+          "anchor_text": "data entry introduces errors",
+          "target_slug": "data-entry-error-rates",
+          "paragraph": "P13",
+          "link_type": "contextual",
+          "reason": "Accuracy concern"
+        },
+        {
+          "anchor_text": "scanned images to text",
+          "target_slug": "extract-text-from-scanned-pdf",
+          "paragraph": "P23",
+          "link_type": "contextual",
+          "reason": "OCR conversion mention"
+        }
+      ]
+    },
+    "how-to-automate-demand-letter-generation": {
+      "new_links": [
+        {
+          "anchor_text": "EOB summaries",
+          "target_slug": "best-eob-processing-software",
+          "paragraph": "P20",
+          "link_type": "contextual",
+          "reason": "Record format variety"
+        }
+      ]
+    },
+    "how-to-automate-insurance-check-processing-law-firms": {
+      "new_links": [
+        {
+          "anchor_text": "insurance checks",
+          "target_slug": "best-check-ocr-software",
+          "paragraph": "P1",
+          "link_type": "contextual",
+          "reason": "Check processing intro"
+        }
+      ]
+    },
+    "how-law-firms-automate-no-fault-arbitration-filings": {
+      "new_links": [
+        {
+          "anchor_text": "scanned check images",
+          "target_slug": "best-check-ocr-software",
+          "paragraph": "P4",
+          "link_type": "contextual",
+          "reason": "Claim document types"
+        }
+      ]
+    },
+    "how-to-extract-data-from-any-pdf": {
+      "new_links": []
+    },
+    "how-to-extract-data-from-medical-forms": {
+      "new_links": []
+    },
+    "how-to-extract-data-from-insurance-claims": {
+      "new_links": [
+        {
+          "anchor_text": "handwritten adjuster notes",
+          "target_slug": "extract-data-from-handwritten-documents",
+          "paragraph": "P1",
+          "link_type": "contextual",
+          "reason": "Claims format variety"
+        }
+      ]
+    },
+    "how-to-extract-data-from-timesheets": {
+      "new_links": []
+    },
+    "how-to-extract-data-from-rent-rolls": {
+      "new_links": []
+    },
+    "how-to-extract-data-from-1040-tax-returns": {
+      "new_links": []
+    },
+    "how-to-extract-data-from-pay-stubs": {
+      "new_links": []
+    },
+    "how-to-extract-data-from-w2-forms": {
+      "new_links": []
+    },
+    "ocr-for-nonprofits": {
+      "new_links": [
+        {
+          "anchor_text": "receipts and expense records",
+          "target_slug": "receipt-processing",
+          "paragraph": "P1",
+          "link_type": "contextual",
+          "reason": "Grant reporting docs"
+        },
+        {
+          "anchor_text": "extracting data from financial statements",
+          "target_slug": "how-to-extract-data-from-financial-statements",
+          "paragraph": "P5",
+          "link_type": "contextual",
+          "reason": "Form 990 prep"
+        }
+      ]
+    },
+    "ocr-for-auto-dealers": {
+      "new_links": [
+        {
+          "anchor_text": "handwritten sections",
+          "target_slug": "extract-data-from-handwritten-documents",
+          "paragraph": "P5",
+          "link_type": "contextual",
+          "reason": "Credit app handwriting"
+        }
+      ]
+    },
+    "ocr-for-staffing-agencies": {
+      "new_links": [
+        {
+          "anchor_text": "handwritten with supervisor signatures",
+          "target_slug": "extract-data-from-handwritten-documents",
+          "paragraph": "P3",
+          "link_type": "contextual",
+          "reason": "Timesheet handwriting"
+        }
+      ]
+    },
+    "ocr-for-pharmacy": {
+      "new_links": [
+        {
+          "anchor_text": "Handwriting legibility",
+          "target_slug": "best-handwriting-ocr-software",
+          "paragraph": "P4",
+          "link_type": "contextual",
+          "reason": "Prescription readability"
+        },
+        {
+          "anchor_text": "Authorization forms from different payers",
+          "target_slug": "best-ocr-for-forms",
+          "paragraph": "P5",
+          "link_type": "contextual",
+          "reason": "Payer form variety, orphan target"
+        }
+      ]
+    },
+    "ocr-for-agriculture": {
+      "new_links": [
+        {
+          "anchor_text": "handwritten weight tickets",
+          "target_slug": "extract-data-from-handwritten-documents",
+          "paragraph": "P2",
+          "link_type": "contextual",
+          "reason": "Rural doc quality"
+        }
+      ]
+    },
+    "how-to-automate-data-entry": {
+      "new_links": [
+        {
+          "anchor_text": "extracting procedure details from EOBs",
+          "target_slug": "best-eob-processing-software",
+          "paragraph": "P2",
+          "link_type": "contextual",
+          "reason": "Medical coder use case"
+        }
+      ]
+    },
+    "best-ocr-app": {
+      "new_links": [
+        {
+          "anchor_text": "garbles table structure",
+          "target_slug": "extract-table-from-pdf",
+          "paragraph": "P2",
+          "link_type": "contextual",
+          "reason": "Table extraction problem, orphan target"
+        }
+      ]
+    },
+    "form-5500-audit-requirements": {
+      "new_links": []
+    },
+    "what-is-erisa-audit": {
+      "new_links": [
+        {
+          "anchor_text": "annual Form 5500",
+          "target_slug": "form-5500-audit-requirements",
+          "paragraph": "P6",
+          "link_type": "contextual",
+          "reason": "Filing requirement ref"
+        }
+      ]
+    },
+    "what-is-employee-benefit-plan-audit": {
+      "new_links": []
+    },
+    "best-mortgage-document-processing-software": {
+      "new_links": []
+    },
+    "what-is-automated-data-capture": {
+      "new_links": [
+        {
+          "anchor_text": "transcribing bank statement transactions",
+          "target_slug": "best-bank-statement-extraction-software",
+          "paragraph": "P1",
+          "link_type": "contextual",
+          "reason": "Bank statement use case"
+        },
+        {
+          "anchor_text": "Contract extraction",
+          "target_slug": "ocr-contract-management",
+          "paragraph": "P13",
+          "link_type": "contextual",
+          "reason": "Legal doc type, orphan target"
+        },
+        {
+          "anchor_text": "mortgage documents",
+          "target_slug": "best-mortgage-document-processing-software",
+          "paragraph": "P14",
+          "link_type": "contextual",
+          "reason": "RE doc type"
+        }
+      ]
+    },
+    "what-is-document-classification": {
+      "new_links": [
+        {
+          "anchor_text": "Loan application processing",
+          "target_slug": "ocr-for-mortgage-processing",
+          "paragraph": "P8",
+          "link_type": "contextual",
+          "reason": "Lending use case"
+        }
+      ]
+    },
+    "how-to-import-bank-statements-into-quickbooks": {
+      "new_links": []
+    },
+    "how-to-convert-csv-to-qbo": {
+      "new_links": []
+    },
+    "best-pdf-to-google-sheets-converter": {
+      "new_links": []
+    },
+    "how-to-convert-pdf-to-google-sheets": {
+      "new_links": []
+    },
+    "how-to-import-extracted-data-into-erp": {
+      "new_links": []
+    },
+    "how-to-automate-document-processing-no-code": {
+      "new_links": [
+        {
+          "anchor_text": "Kofax Transformation",
+          "target_slug": "kofax-alternative",
+          "paragraph": "P7",
+          "link_type": "contextual",
+          "reason": "Product mention"
+        }
+      ]
+    },
+    "lido-vs-chatgpt-document-processing": {
+      "new_links": [
+        {
+          "anchor_text": "customs declaration form",
+          "target_slug": "best-customs-document-processing-software",
+          "paragraph": "P6",
+          "link_type": "contextual",
+          "reason": "Doc type mention"
+        },
+        {
+          "anchor_text": "medical EOB",
+          "target_slug": "best-eob-processing-software",
+          "paragraph": "P6",
+          "link_type": "contextual",
+          "reason": "Doc type mention"
+        }
+      ]
+    },
+    "how-to-fuzzy-match-vendor-names": {
+      "new_links": []
+    },
+    "how-to-extract-data-from-bank-statements": {
+      "new_links": [
+        {
+          "anchor_text": "reconcile accounts",
+          "target_slug": "how-to-automate-bank-statement-reconciliation-with-ocr",
+          "paragraph": "P1",
+          "link_type": "contextual",
+          "reason": "Bank reconciliation use case"
+        }
+      ]
+    },
+    "best-underwriting-automation-software": {
+      "new_links": [
+        {
+          "anchor_text": "extraction from medical records",
+          "target_slug": "data-extraction-in-healthcare",
+          "paragraph": "P34",
+          "link_type": "contextual",
+          "reason": "Healthcare doc extraction, orphan target"
+        }
+      ]
+    },
+    "best-loan-processing-automation-software": {
+      "new_links": [
+        {
+          "anchor_text": "K-1 schedules",
+          "target_slug": "how-to-automate-k1-processing",
+          "paragraph": "P4",
+          "link_type": "contextual",
+          "reason": "Tax doc type, low inbound"
+        }
+      ]
+    },
+    "best-mortgage-document-automation-software": {
+      "new_links": []
+    },
+    "best-ocr-for-manufacturing": {
+      "new_links": [
+        {
+          "anchor_text": "handwritten POs",
+          "target_slug": "extract-data-from-handwritten-documents",
+          "paragraph": "P2",
+          "link_type": "contextual",
+          "reason": "Handwriting recognition need"
+        }
+      ]
+    },
+    "best-document-processing-for-real-estate": {
+      "new_links": [
+        {
+          "anchor_text": "insurance certificates",
+          "target_slug": "best-coi-processing-software",
+          "paragraph": "P1",
+          "link_type": "contextual",
+          "reason": "COI doc type, low inbound"
+        }
+      ]
+    },
+    "best-document-processing-for-law-firms": {
+      "new_links": []
+    },
+    "best-document-processing-for-construction": {
+      "new_links": [
+        {
+          "anchor_text": "automated three-way matching",
+          "target_slug": "best-three-way-matching-software",
+          "paragraph": "P28",
+          "link_type": "contextual",
+          "reason": "PO matching reference"
+        },
+        {
+          "anchor_text": "insurance COIs",
+          "target_slug": "best-coi-processing-software",
+          "paragraph": "P29",
+          "link_type": "contextual",
+          "reason": "Compliance doc type"
+        }
+      ]
+    },
+    "best-three-way-matching-software": {
+      "new_links": [
+        {
+          "anchor_text": "fixing data entry errors",
+          "target_slug": "data-entry-error-rates",
+          "paragraph": "P2",
+          "link_type": "contextual",
+          "reason": "Error rate context"
+        }
+      ]
+    },
+    "best-financial-statement-data-extraction-software-94166": {
+      "new_links": []
+    },
+    "best-document-processing-software-for-insurance-c49bb": {
+      "new_links": []
+    },
+    "best-financial-statement-data-extraction-software": {
+      "new_links": []
+    },
+    "best-document-processing-software-for-insurance": {
+      "new_links": [
+        {
+          "anchor_text": "certificates of insurance",
+          "target_slug": "best-coi-processing-software",
+          "paragraph": "P1",
+          "link_type": "contextual",
+          "reason": "COI doc type"
+        }
+      ]
+    },
+    "best-remittance-advice-processing-software": {
+      "new_links": []
+    },
+    "best-table-extraction-software": {
+      "new_links": []
+    },
+    "best-ocr-for-handwritten-documents": {
+      "new_links": [
+        {
+          "anchor_text": "patient intake forms in healthcare",
+          "target_slug": "data-extraction-in-healthcare",
+          "paragraph": "P2",
+          "link_type": "contextual",
+          "reason": "Healthcare use case, low inbound"
+        }
+      ]
+    },
+    "sureprep-alternative": {
+      "new_links": [
+        {
+          "anchor_text": "source documents for audit",
+          "target_slug": "how-to-extract-audit-evidence-from-source-documents",
+          "paragraph": "P2",
+          "link_type": "contextual",
+          "reason": "Audit workflow ref"
+        }
+      ]
+    },
+    "gruntworx-alternative": {
+      "new_links": [
+        {
+          "anchor_text": "payroll records",
+          "target_slug": "best-payroll-ocr-software",
+          "paragraph": "P4",
+          "link_type": "contextual",
+          "reason": "Payroll doc type, low inbound"
+        }
+      ]
+    },
+    "hubdoc-alternative": {
+      "new_links": [
+        {
+          "anchor_text": "match invoice lines against purchase orders",
+          "target_slug": "best-three-way-matching-software",
+          "paragraph": "P5",
+          "link_type": "contextual",
+          "reason": "PO matching reference"
+        }
+      ]
+    },
+    "how-to-match-document-data-to-excel": {
+      "new_links": [
+        {
+          "anchor_text": "bank reconciliation",
+          "target_slug": "how-to-automate-bank-statement-reconciliation-with-ocr",
+          "paragraph": "P4",
+          "link_type": "contextual",
+          "reason": "Bank recon use case"
+        }
+      ]
+    },
+    "how-to-extract-data-from-financial-statements": {
+      "new_links": [
+        {
+          "anchor_text": "copy and paste from a PDF",
+          "target_slug": "copy-text-from-pdf",
+          "paragraph": "P2",
+          "link_type": "contextual",
+          "reason": "PDF text extraction, low inbound"
+        }
+      ]
+    },
+    "how-to-automate-1099-processing": {
+      "new_links": []
+    },
+    "how-to-automate-k1-processing": {
+      "new_links": []
+    },
+    "best-k1-extraction-software": {
+      "new_links": []
+    },
+    "how-to-extract-audit-evidence-from-source-documents": {
+      "new_links": []
+    },
+    "best-ocr-for-audit-teams": {
+      "new_links": []
+    },
+    "best-ocr-for-logistics": {
+      "new_links": []
+    },
+    "best-ocr-for-healthcare": {
+      "new_links": []
+    },
+    "best-document-scanning-software": {
+      "new_links": []
+    },
+    "best-pdf-to-qbo-converter": {
+      "new_links": []
+    },
+    "best-photo-to-excel-converter": {
+      "new_links": []
+    },
+    "best-invoice-recognition-software": {
+      "new_links": []
+    },
+    "best-word-to-excel-converter": {
+      "new_links": []
+    },
+    "best-payroll-data-extraction-software": {
+      "new_links": []
+    },
+    "best-jpg-to-excel-converter": {
+      "new_links": []
+    },
+    "best-scan-to-excel-software": {
+      "new_links": []
+    },
+    "best-handwriting-ocr-software": {
+      "new_links": []
+    },
+    "best-invoice-scanning-software": {
+      "new_links": []
+    },
+    "best-pdf-to-csv-converter": {
+      "new_links": []
+    },
+    "best-pdf-parser": {
+      "new_links": []
+    },
+    "best-pdf-to-excel-converter": {
+      "new_links": []
+    },
+    "best-purchase-order-software": {
+      "new_links": []
+    },
+    "best-invoice-automation-software": {
+      "new_links": []
+    },
+    "how-to-process-insurance-documents-multiple-payer-formats": {
+      "new_links": [
+        {
+          "anchor_text": "vendor master matching",
+          "target_slug": "how-to-fuzzy-match-vendor-names",
+          "paragraph": "P22",
+          "link_type": "contextual",
+          "reason": "Vendor matching concept; orphan source"
+        }
+      ]
+    },
+    "how-to-batch-process-thousands-of-documents": {
+      "new_links": [
+        {
+          "anchor_text": "Explanations of Benefits",
+          "target_slug": "best-eob-processing-software",
+          "paragraph": "P2",
+          "link_type": "contextual",
+          "reason": "EOB doc type in case study"
+        },
+        {
+          "anchor_text": "extracting data from purchase orders",
+          "target_slug": "best-purchase-order-ocr-software",
+          "paragraph": "P3",
+          "link_type": "contextual",
+          "reason": "PO extraction in case study; orphan source"
+        },
+        {
+          "anchor_text": "CMS 1500 forms",
+          "target_slug": "how-to-extract-data-from-cms-1500-forms",
+          "paragraph": "P4",
+          "link_type": "contextual",
+          "reason": "CMS form type in case study; orphan source"
+        }
+      ]
+    },
+    "best-eob-processing-software": {
+      "new_links": []
+    },
+    "how-to-extract-data-from-eobs-automatically": {
+      "new_links": []
+    },
+    "best-invoice-ocr-software": {
+      "new_links": [
+        {
+          "anchor_text": "onboard new suppliers",
+          "target_slug": "automate-vendor-onboarding-documents",
+          "paragraph": "P28",
+          "link_type": "contextual",
+          "reason": "Vendor onboarding ref in buying guide"
+        }
+      ]
+    },
+    "what-is-automated-data-entry": {
+      "new_links": [
+        {
+          "anchor_text": "carrier's bill of lading",
+          "target_slug": "best-bill-of-lading-ocr-software",
+          "paragraph": "P5",
+          "link_type": "contextual",
+          "reason": "BOL doc type example"
+        },
+        {
+          "anchor_text": "Google Drive's built-in OCR",
+          "target_slug": "best-google-drive-ocr-tools",
+          "paragraph": "P14",
+          "link_type": "contextual",
+          "reason": "Google Drive OCR mention"
+        },
+        {
+          "anchor_text": "Microsoft Power Automate",
+          "target_slug": "best-power-automate-ocr-tools",
+          "paragraph": "P15",
+          "link_type": "contextual",
+          "reason": "Power Automate platform ref"
+        }
+      ]
+    },
+    "best-pdf-data-extraction-tools": {
+      "new_links": []
+    },
+    "best-free-ocr-software": {
+      "new_links": [
+        {
+          "anchor_text": "accuracy on complex documents",
+          "target_slug": "ocr-accuracy",
+          "paragraph": "P24",
+          "link_type": "contextual",
+          "reason": "Accuracy concern in free tool limits"
+        }
+      ]
+    },
+    "how-to-extract-text-from-pdf": {
+      "new_links": [
+        {
+          "anchor_text": "Poor OCR accuracy",
+          "target_slug": "ocr-accuracy",
+          "paragraph": "P28",
+          "link_type": "contextual",
+          "reason": "Accuracy troubleshooting section"
+        },
+        {
+          "anchor_text": "table data coming out jumbled",
+          "target_slug": "extract-table-from-pdf",
+          "paragraph": "P29",
+          "link_type": "contextual",
+          "reason": "Table extraction troubleshooting"
+        }
+      ]
+    },
+    "best-ocr-software": {
+      "new_links": [
+        {
+          "anchor_text": "hundreds of thousands of documents",
+          "target_slug": "how-to-batch-process-thousands-of-documents",
+          "paragraph": "P27",
+          "link_type": "contextual",
+          "reason": "Volume ref in buying guide; orphan target"
+        }
+      ]
+    },
+    "how-to-automate-freight-invoice-processing": {
+      "new_links": [
+        {
+          "anchor_text": "Fuzzy matching against your carrier master",
+          "target_slug": "how-to-fuzzy-match-vendor-names",
+          "paragraph": "P36",
+          "link_type": "contextual",
+          "reason": "Carrier name matching requirement"
+        }
+      ]
+    },
+    "parabola-alternative": {
+      "new_links": [
+        {
+          "anchor_text": "audit freight invoices",
+          "target_slug": "how-to-automate-freight-invoice-processing",
+          "paragraph": "P2",
+          "link_type": "contextual",
+          "reason": "Freight invoice use case ref"
+        }
+      ]
+    },
+    "the-true-cost-of-manual-invoice-processing": {
+      "new_links": []
+    },
+    "pdf-co-alternative": {
+      "new_links": [
+        {
+          "anchor_text": "Converting PDFs to Excel",
+          "target_slug": "extract-data-from-pdf-to-excel",
+          "paragraph": "P2",
+          "link_type": "contextual",
+          "reason": "PDF-to-Excel capability ref; orphan source"
+        }
+      ]
+    },
+    "how-to-convert-purchase-orders-to-excel": {
+      "new_links": []
+    },
+    "ocr-for-manufacturing": {
+      "new_links": []
+    },
+    "how-to-get-extracted-data-into-erp": {
+      "new_links": []
+    },
+    "how-to-extract-data-from-remittance-advices": {
+      "new_links": [
+        {
+          "anchor_text": "matching against your customer master",
+          "target_slug": "how-to-fuzzy-match-vendor-names",
+          "paragraph": "P16",
+          "link_type": "contextual",
+          "reason": "Customer name matching in field description"
+        }
+      ]
+    }
+  }
+}
